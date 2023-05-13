@@ -1406,6 +1406,8 @@ const editor = grapesjs.init({
           },
         ],
         script: function () {
+            
+          $(window).on('load', function(){
 
           const initLib = function(){
 
@@ -1458,7 +1460,7 @@ const editor = grapesjs.init({
           
         },
       },
-    },
+    })},
   
     isComponent: (el) => {
       if (el.className && el.className.includes("swiper-container")) {
