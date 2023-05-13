@@ -2074,12 +2074,7 @@ var componentes = {
             display: flex !important;  // to override display:bloc i added !important
             flex-direction: row;   
             justify-content: center;  // to center you carousel
-        }
-        .owl-carousel .item {
-          position: relative;
-          z-index: 100; 
-          -webkit-backface-visibility: hidden; 
-        }
+        
         
         /* end fix */
         .owl-nav > div {
