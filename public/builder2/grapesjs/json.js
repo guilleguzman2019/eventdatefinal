@@ -2074,6 +2074,7 @@ var componentes = {
             display: flex !important;  // to override display:bloc i added !important
             flex-direction: row;   
             justify-content: center;  // to center you carousel
+            }
         
         
         /* end fix */
