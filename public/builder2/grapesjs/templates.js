@@ -5,7 +5,7 @@ var template = {
         "assets": [
             {
                 "type": "image",
-                "src": "http://localhost:8000/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg",
+                "src": "https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -61,7 +61,7 @@ var template = {
                     "#ispm"
                 ],
                 "style": {
-                    "background-image": "url(\"http://localhost:8000/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg\")",
+                    "background-image": "url(\"https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg\")",
                     "background-size": "auto",
                     "background-position": "center center",
                     "background-repeat": "no-repeat",
@@ -1923,7 +1923,7 @@ var template = {
                     "#ispm"
                 ],
                 "style": {
-                    "background-image": "url('http://localhost:8000/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg')",
+                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg')",
                     "background-repeat": "no-repeat",
                     "background-position": "center center",
                     "background-attachment": "scroll",
@@ -2015,7 +2015,7 @@ var template = {
                                             ]
                                         }
                                     ],
-                                    "src": "http://localhost:8000/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg"
+                                    "src": "https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg"
                                 },
                                 {
                                     "type": "historia",
@@ -5609,7 +5609,7 @@ var template = {
         "assets": [
             {
                 "type": "image",
-                "src": "http://localhost:8000/grapesjs/img/MODELO-BODA-1-1.jpg",
+                "src": "https://invitaciondigital.store/grapesjs/img/MODELO-BODA-1-1.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -5667,7 +5667,7 @@ var template = {
                     "#i9bi"
                 ],
                 "style": {
-                    "background-image": "url(\"http://localhost:8000/grapesjs/img/MODELO-BODA-1-1.jpg\")",
+                    "background-image": "url(\"https://invitaciondigital.store/grapesjs/img/MODELO-BODA-1-1.jpg\")",
                     "background-size": "cover",
                     "background-position": "center center",
                     "background-repeat": "no-repeat",
@@ -6132,7 +6132,7 @@ var template = {
                     "padding-right": "0px",
                     "padding-bottom": "40px",
                     "padding-left": "0px",
-                    "background-image": "url('http://localhost:8000/grapesjs/img/MODELO-BODA-1-1.jpg')",
+                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/MODELO-BODA-1-1.jpg')",
                     "background-position-x": "center",
                     "background-position-y": "center",
                     "background-size": "cover",
@@ -6568,7 +6568,7 @@ var template = {
                 "style": {
                     "width": "100%",
                     "height": "200px",
-                    "background-image": "url('http://localhost:8000/grapesjs/img/MODELO-BODA-1-1.jpg')",
+                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/MODELO-BODA-1-1.jpg')",
                     "background-position-x": "center",
                     "background-position-y": "center",
                     "background-size": "cover",
@@ -7951,7 +7951,7 @@ var template = {
                                             ]
                                         }
                                     ],
-                                    "src": "http://localhost:8000/grapesjs/img/MODELO-BODA-1-1.jpg"
+                                    "src": "https://invitaciondigital.store/grapesjs/img/MODELO-BODA-1-1.jpg"
                                 },
                                 {
                                     "type": "historiaboho",
@@ -11541,7 +11541,7 @@ var template = {
         "assets": [
             {
                 "type": "image",
-                "src": "http://localhost:8000/grapesjs/img/flor1-izquierda.png",
+                "src": "https://invitaciondigital.store/grapesjs/img/flor1-izquierda.png",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -11549,7 +11549,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "http://localhost:8000/grapesjs/img/flor1-derecha.png",
+                "src": "https://invitaciondigital.store/grapesjs/img/flor1-derecha.png",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -11557,7 +11557,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "http://localhost:8000/grapesjs/img/romantic-3.jpg",
+                "src": "https://invitaciondigital.store/grapesjs/img/romantic-3.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -11565,7 +11565,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "http://localhost:8000/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg",
+                "src": "https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -11590,7 +11590,7 @@ var template = {
                     "padding-right": "4%",
                     "padding-bottom": "4%",
                     "padding-left": "4%",
-                    "background-image": "url('http://localhost:8000/grapesjs/img/romantic-3.jpg')",
+                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/romantic-3.jpg')",
                     "background-repeat": "repeat",
                     "background-position": "center center",
                     "background-attachment": "scroll",
@@ -11804,7 +11804,7 @@ var template = {
                     "#ioxxd"
                 ],
                 "style": {
-                    "background-image": "url(\"http://localhost:8000/grapesjs/img/romantic-3.jpg\") ",
+                    "background-image": "url(\"https://invitaciondigital.store/grapesjs/img/romantic-3.jpg\") ",
                     "background-size": "auto",
                     "background-position": "center center",
                     "background-repeat": "no-repeat",
@@ -11905,7 +11905,7 @@ var template = {
                     "#ioxxd"
                 ],
                 "style": {
-                    "background-image": "url('http://localhost:8000/grapesjs/img/romantic-3.jpg')",
+                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/romantic-3.jpg')",
                     "background-repeat": "no-repeat",
                     "background-position": "center center",
                     "background-size": "cover"
@@ -13063,7 +13063,7 @@ var template = {
                 "style": {
                     "width": "100%",
                     "height": "200px",
-                    "background-image": "url('http://localhost:8000/grapesjs/img/romantic-3.jpg')",
+                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/romantic-3.jpg')",
                     "background-position-x": "center",
                     "background-position-y": "center",
                     "background-size": "cover",
@@ -13564,7 +13564,7 @@ var template = {
                                                         "foto1"
                                                     ],
                                                     "attributes": {
-                                                        "src": "http://localhost:8000/grapesjs/img/flor1-izquierda.png",
+                                                        "src": "https://invitaciondigital.store/grapesjs/img/flor1-izquierda.png",
                                                         "width": "160",
                                                         "height": "400"
                                                     }
@@ -13579,7 +13579,7 @@ var template = {
                                                         "foto2"
                                                     ],
                                                     "attributes": {
-                                                        "src": "http://localhost:8000/grapesjs/img/flor1-derecha.png",
+                                                        "src": "https://invitaciondigital.store/grapesjs/img/flor1-derecha.png",
                                                         "width": "160",
                                                         "height": "400"
                                                     }
@@ -13626,7 +13626,7 @@ var template = {
                                             ]
                                         }
                                     ],
-                                    "src": "http://localhost:8000/grapesjs/img/romantic-3.jpg"
+                                    "src": "https://invitaciondigital.store/grapesjs/img/romantic-3.jpg"
                                 },
                                 {
                                     "type": "historiaromantic",
@@ -17433,7 +17433,7 @@ var template = {
         "assets": [
             {
                 "type": "image",
-                "src": "http://localhost:8000/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg",
+                "src": "https://invitaciondigital.store/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -17441,7 +17441,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "http://localhost:8000/grapesjs/img/flor1-izquierda.png",
+                "src": "https://invitaciondigital.store/grapesjs/img/flor1-izquierda.png",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -17449,7 +17449,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "http://localhost:8000/grapesjs/img/flor1-derecha.png",
+                "src": "https://invitaciondigital.store/grapesjs/img/flor1-derecha.png",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -17457,7 +17457,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "http://localhost:8000/grapesjs/img/romantic-3.jpg",
+                "src": "https://invitaciondigital.store/grapesjs/img/romantic-3.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -17465,7 +17465,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "http://localhost:8000/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg",
+                "src": "https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -17699,7 +17699,7 @@ var template = {
                     "#ioxxd"
                 ],
                 "style": {
-                    "background-image": "url('http://localhost:8000/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg')",
+                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg')",
                     "background-size": "cover",
                     "background-position": "center center",
                     "background-repeat": "no-repeat",
@@ -17801,7 +17801,7 @@ var template = {
                     "#ioxxd"
                 ],
                 "style": {
-                    "background-image": "url('http://localhost:8000/grapesjs/img/romantic-3.jpg')",
+                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/romantic-3.jpg')",
                     "background-repeat": "no-repeat",
                     "background-position": "center center",
                     "background-size": "cover"
@@ -18022,7 +18022,7 @@ var template = {
                     "background-clip": "initial",
                     "box-shadow": "rgba(7, 7, 7, 0.67) 0px 0px 0px 2000px inset",
                     "padding": "28px 0px 23px 0px",
-                    "background-image": "url('http://localhost:8000/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg')",
+                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg')",
                     "background-position": "center center"
                 },
                 "group": "cmp:contador"
@@ -18928,7 +18928,7 @@ var template = {
                     "box-shadow": "rgba(7, 7, 7, 0.3) 0px 0px 0px 2000px inset",
                     "background-repeat": "repeat",
                     "background-position": "center center",
-                    "background-image": "url('http://localhost:8000/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg')"
+                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg')"
                 },
                 "group": "cmp:mensaje"
             },
@@ -19627,7 +19627,7 @@ var template = {
                                             ]
                                         }
                                     ],
-                                    "src": "http://localhost:8000/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg"
+                                    "src": "https://invitaciondigital.store/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg"
                                 },
                                 {
                                     "type": "division",
