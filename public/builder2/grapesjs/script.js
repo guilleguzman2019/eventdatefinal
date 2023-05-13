@@ -49,7 +49,7 @@ const editor = grapesjs.init({
 
             editor.AssetManager.add([
               {
-                src: 'http://localhost:8000/'+d,
+                src: 'https://invitaciondigital.store/'+d,
                 name: numero,
                 type: 'image'
               }
