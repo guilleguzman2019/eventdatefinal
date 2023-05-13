@@ -26,7 +26,7 @@ class BuilderInvitationController extends Controller
           );
 
 
-        $qrCode = (new QRCode($options))->render('http://localhost:8000/invitacion/'.$invitacion->slug);
+        $qrCode = (new QRCode($options))->render('https://invitaciondigital.store/invitacion/'.$invitacion->slug);
 
 
         return view('panel.builderInvitacion', compact('invitacion', 'qrCode'));
