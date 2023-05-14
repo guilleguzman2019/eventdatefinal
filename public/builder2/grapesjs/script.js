@@ -1407,9 +1407,6 @@ const editor = grapesjs.init({
         ],
         script: function () {
          
-
-          const initLib = function(){
-
             const owl = $('.galeria').owlCarousel({
               loop: false,
               margin: 10,
@@ -1432,31 +1429,6 @@ const editor = grapesjs.init({
                 }
               }
             });
-          }
-  
-          if(typeof owl == 'undefined'){
-
-            console.log('hola');
-
-            const script1 = document.createElement('script');
-
-            script1.onload = initLib();
-
-            script1.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min.js";
-
-            const script2 = document.createElement('script');
-
-            //script2.onload = initLib;
-
-            script2.src = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js";
-          }
-
-          else{
-
-            initLib();
-          }
-          
-          
         },
       },
     },
