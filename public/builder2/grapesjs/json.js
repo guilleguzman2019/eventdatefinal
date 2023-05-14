@@ -2370,7 +2370,7 @@ var componentes = {
                             <br>
                             <div class="carousel-wrap" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
                             <div class="owl-carousel padrinos-owl owl-theme" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
-                              <div class="item" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
+                              <div class="item-padrinos" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
                                 <img src="https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg" class="image-cover" width="150">
                                 <br>
                                 <h5 class="titulopadrinos" >Hermano del Novio</h5>
@@ -2466,7 +2466,7 @@ var componentes = {
           }
           }
           
-          .owl-carousel .item-padrinos {
+          .padrinos-owl .item-padrinos {
             position: relative;
             z-index: 100; 
             -webkit-backface-visibility: hidden; 
