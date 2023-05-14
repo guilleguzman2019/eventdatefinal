@@ -1329,7 +1329,7 @@ const editor = grapesjs.init({
   
         for (i=1; i<=cantidad; i++) {
   
-          html += `<div class="item" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
+          html += `<div class="item-padrinos" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
                     <img src="https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg" class="image-cover" width="150">
                     <br>
                     <h5 class="titulopadrinos" >Hermano del Novio</h5>
