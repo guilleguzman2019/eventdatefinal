@@ -1272,7 +1272,7 @@ const editor = grapesjs.init({
   
           const cantidadEvent = "{[ cantidadEvent ]}";
   
-          $('.padrinos-owl').owlCarousel({
+          $('.padrinos').owlCarousel({
             loop: false,
             margin: 1,
             nav: true,
@@ -1299,13 +1299,7 @@ const editor = grapesjs.init({
       },
     },
   
-    isComponent: (el) => {
-      if (el.className && el.className.includes("swiper-container")) {
-        return {
-          type: "padrinosWestern",
-        };
-      }
-    },
+    // aca van el is component
   
     view: defaultView.extend({
       init({ model }) {
