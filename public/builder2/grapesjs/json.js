@@ -2122,48 +2122,54 @@ var componentes = {
                           <div class="carousel-wrap" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
                             <div class="owl-carousel eventos_owl" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
                   
-                              <div class="card p-4" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
-                                <img class="card-img-top" src="https://eleve11.ar/wp-content/uploads/jet-engine-forms/1/2022/09/registro-civi-3-1024x768.jpeg" alt="Card image cap">
-                                <div class="card-body" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
-                                  <h5 class="card-title">CEREMONIA</h5>
-                                  <div class="divhorario" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
-                                    <span>30/12/2023 19:00hs</span>
-                                  </div>
-                                  <h5 class="card-lugar">REGISTRO CIVIL CENTRAL</h5>
-                                  <span class="card-text">Blvr. Chacabuco 737, Córdoba</span>
-                                  <br>
-                                  <br>
-                                  <a href="#" class="botonhashtag">VER UBICACION</a>
+                              <div class="item">
+                                <div class="card p-4" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
+                                    <img class="card-img-top" src="https://eleve11.ar/wp-content/uploads/2022/09/3602_17670fotoalgr.jpg" alt="Card image cap">
+                                    <div class="card-body" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
+                                      <h5 class="card-title">RECEPCION</h5>
+                                      <div class="divhorario" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
+                                        <span>30/12/2023 19:00hs</span>
+                                      </div>
+                                      <h5 class="card-lugar">BOLGHERI</h5>
+                                      <span class="card-text">Blvr. Chacabuco 737, Córdoba</span>
+                                      <br>
+                                      <br>
+                                      <a href="#" class="botonhashtag">VER UBICACION</a>
+                                    </div>
                                 </div>
                               </div>
-                              
-                              <div class="card p-4" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
-                                <img class="card-img-top" src="https://eleve11.ar/wp-content/uploads/2022/09/Catedral-4.jpg" alt="Card image cap">
-                                <div class="card-body" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
-                                  <h5 class="card-title">BODA</h5>
-                                  <div class="divhorario" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
-                                    <span>30/12/2023 19:00hs</span>
-                                  </div>
-                                  <h5 class="card-lugar">CATEGRAL DE CORDOBA</h5>
-                                  <span class="card-text">Blvr. Chacabuco 737, Córdoba</span>
-                                  <br>
-                                  <br>
-                                  <a href="#" class="botonhashtag">VER UBICACION</a>
+
+                              <div class="item">
+                                <div class="card p-4" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
+                                    <img class="card-img-top" src="https://eleve11.ar/wp-content/uploads/2022/09/3602_17670fotoalgr.jpg" alt="Card image cap">
+                                    <div class="card-body" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
+                                      <h5 class="card-title">RECEPCION</h5>
+                                      <div class="divhorario" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
+                                        <span>30/12/2023 19:00hs</span>
+                                      </div>
+                                      <h5 class="card-lugar">BOLGHERI</h5>
+                                      <span class="card-text">Blvr. Chacabuco 737, Córdoba</span>
+                                      <br>
+                                      <br>
+                                      <a href="#" class="botonhashtag">VER UBICACION</a>
+                                    </div>
                                 </div>
                               </div>
-                              
-                              <div class="card p-4" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
-                                <img class="card-img-top" src="https://eleve11.ar/wp-content/uploads/2022/09/3602_17670fotoalgr.jpg" alt="Card image cap">
-                                <div class="card-body" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
-                                  <h5 class="card-title">RECEPCION</h5>
-                                  <div class="divhorario" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
-                                    <span>30/12/2023 19:00hs</span>
-                                  </div>
-                                  <h5 class="card-lugar">BOLGHERI</h5>
-                                  <span class="card-text">Blvr. Chacabuco 737, Córdoba</span>
-                                  <br>
-                                  <br>
-                                  <a href="#" class="botonhashtag">VER UBICACION</a>
+
+                              <div class="item">
+                                <div class="card p-4" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
+                                    <img class="card-img-top" src="https://eleve11.ar/wp-content/uploads/2022/09/3602_17670fotoalgr.jpg" alt="Card image cap">
+                                    <div class="card-body" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
+                                      <h5 class="card-title">RECEPCION</h5>
+                                      <div class="divhorario" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
+                                        <span>30/12/2023 19:00hs</span>
+                                      </div>
+                                      <h5 class="card-lugar">BOLGHERI</h5>
+                                      <span class="card-text">Blvr. Chacabuco 737, Córdoba</span>
+                                      <br>
+                                      <br>
+                                      <a href="#" class="botonhashtag">VER UBICACION</a>
+                                    </div>
                                 </div>
                               </div>
                   
