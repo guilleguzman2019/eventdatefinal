@@ -2382,7 +2382,7 @@ var componentes = {
                             <h3 class="titulopadrino" data-gjs-highlightable="false">Padrinos</h3>
                             <br>
                             <div class="carousel-wrap" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
-                            <div class="owl-carousel padrinos-owl owl-theme" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
+                            <div class="owl-carousel padrinosWestern owl-theme" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
                               <div class="item-padrinos" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
                                 <img src="https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg" class="image-cover" width="150">
                                 <br>
@@ -2479,7 +2479,7 @@ var componentes = {
           }
           }
           
-          .owl-carousel{
+          .padrinosWestern{
               display: flex !important;  // to override display:bloc i added !important
               flex-direction: row;   
               justify-content: center;  // to center you carousel
