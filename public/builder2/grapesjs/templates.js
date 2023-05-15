@@ -1,16 +1,7 @@
 var template = {
     
-    "Western": 
-    {
+    "Western": {
         "assets": [
-            {
-                "type": "image",
-                "src": "https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg",
-                "unitDim": "px",
-                "height": 0,
-                "width": 0,
-                "name": 0.13622289651771835
-            },
             {
                 "type": "image",
                 "src": "/grapesjs/img/",
@@ -20,6 +11,40 @@ var template = {
             }
         ],
         "styles": [
+            {
+                "selectors": [],
+                "selectorsAdd": "*",
+                "style": {
+                    "box-sizing": "border-box"
+                }
+            },
+            {
+                "selectors": [],
+                "selectorsAdd": "body",
+                "style": {
+                    "margin-top": "0px",
+                    "margin-right": "0px",
+                    "margin-bottom": "0px",
+                    "margin-left": "0px"
+                }
+            },
+            {
+                "selectors": [],
+                "selectorsAdd": "*",
+                "style": {
+                    "box-sizing": "border-box"
+                }
+            },
+            {
+                "selectors": [],
+                "selectorsAdd": "body",
+                "style": {
+                    "margin-top": "0px",
+                    "margin-right": "0px",
+                    "margin-bottom": "0px",
+                    "margin-left": "0px"
+                }
+            },
             {
                 "selectors": [
                     "texto-portada"
@@ -31,8 +56,7 @@ var template = {
                     "font-family": "\"Noto Serif Display\"",
                     "font-weight": "700",
                     "font-style": "italic"
-                },
-                "group": "cmp:Portada"
+                }
             },
             {
                 "selectors": [
@@ -42,8 +66,7 @@ var template = {
                     "position": "absolute",
                     "top": "50%",
                     "left": "0%"
-                },
-                "group": "cmp:Portada"
+                }
             },
             {
                 "selectors": [
@@ -53,8 +76,7 @@ var template = {
                     "position": "absolute",
                     "top": "0%",
                     "right": "0%"
-                },
-                "group": "cmp:Portada"
+                }
             },
             {
                 "selectors": [
@@ -63,15 +85,17 @@ var template = {
                 "style": {
                     "background-image": "url(\"https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg\")",
                     "background-size": "auto",
-                    "background-position": "center center",
-                    "background-repeat": "no-repeat",
+                    "background-position-x": "50%",
+                    "background-position-y": "50%",
+                    "background-repeat-x": "no-repeat",
+                    "background-repeat-y": "no-repeat",
                     "min-height": "200px",
                     "height": "100vh",
                     "position": "relative",
                     "display": "flex",
                     "flex-direction": "column",
                     "justify-content": "center",
-                    "box-shadow": "inset 0 0 0 2000px rgba(7, 7, 7, 0.3)",
+                    "box-shadow": "rgba(7, 7, 7, 0.3) 0px 0px 0px 2000px inset",
                     "align-items": "center"
                 }
             },
@@ -89,22 +113,7 @@ var template = {
                     "padding-right": "4%",
                     "padding-bottom": "7%",
                     "padding-left": "4%"
-                },
-                "group": "cmp:historia"
-            },
-            {
-                "selectors": [
-                    "#historia"
-                ],
-                "style": {
-                    "padding-top": "6%",
-                    "padding-right": "3%",
-                    "padding-bottom": "12%",
-                    "padding-left": "3%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:historia"
+                }
             },
             {
                 "selectors": [
@@ -117,19 +126,7 @@ var template = {
                     "font-weight": "400",
                     "font-style": "italic",
                     "margin-bottom": "35px"
-                },
-                "group": "cmp:historia"
-            },
-            {
-                "selectors": [
-                    "tituloHistoria"
-                ],
-                "style": {
-                    "font-size": "28px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:historia"
+                }
             },
             {
                 "selectors": [
@@ -143,8 +140,7 @@ var template = {
                     "font-weight": "300",
                     "font-style": "normal",
                     "line-height": "28px"
-                },
-                "group": "cmp:historia"
+                }
             },
             {
                 "selectors": [
@@ -156,22 +152,7 @@ var template = {
                     "padding-right": "4%",
                     "padding-bottom": "4%",
                     "padding-left": "4%"
-                },
-                "group": "cmp:Hashtag"
-            },
-            {
-                "selectors": [
-                    "hashtag2"
-                ],
-                "style": {
-                    "padding-top": "8%",
-                    "padding-right": "0%",
-                    "padding-bottom": "12%",
-                    "padding-left": "0%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:Hashtag"
+                }
             },
             {
                 "selectors": [
@@ -183,19 +164,7 @@ var template = {
                     "font-size": "35px",
                     "font-weight": "700",
                     "font-style": "italic"
-                },
-                "group": "cmp:Vestimenta"
-            },
-            {
-                "selectors": [
-                    "titulohashtag"
-                ],
-                "style": {
-                    "font-size": "25px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:Vestimenta"
+                }
             },
             {
                 "selectors": [
@@ -210,20 +179,7 @@ var template = {
                     "text-transform": "uppercase",
                     "letter-spacing": "5px",
                     "text-align": "center"
-                },
-                "group": "cmp:Vestimenta"
-            },
-            {
-                "selectors": [
-                    "hashtag"
-                ],
-                "style": {
-                    "margin-bottom": "20px",
-                    "font-size": "23px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:Vestimenta"
+                }
             },
             {
                 "selectors": [
@@ -235,32 +191,7 @@ var template = {
                     "padding-right": "4%",
                     "padding-bottom": "4%",
                     "padding-left": "4%"
-                },
-                "group": "cmp:Vestimenta"
-            },
-            {
-                "selectors": [
-                    "#vestimenta"
-                ],
-                "style": {
-                    "padding-top": "8%",
-                    "padding-right": "0%",
-                    "padding-bottom": "12%",
-                    "padding-left": "0%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:Vestimenta"
-            },
-            {
-                "selectors": [
-                    "owl-carousel"
-                ],
-                "style": {
-                    "justify-content": "center",
-                    "display": "flex !important"
-                },
-                "group": "cmp:Galeria"
+                }
             },
             {
                 "selectors": [
@@ -268,8 +199,7 @@ var template = {
                 ],
                 "style": {
                     "height": "550px"
-                },
-                "group": "cmp:listaregalos"
+                }
             },
             {
                 "selectors": [
@@ -277,65 +207,7 @@ var template = {
                 ],
                 "style": {
                     "height": "250px !important"
-                },
-                "group": "cmp:regalos"
-            },
-            {
-                "selectors": [
-                    "swiper-container-regalo"
-                ],
-                "style": {
-                    "width": "306px",
-                    "height": "565px"
-                },
-                "group": "cmp:regalos"
-            },
-            {
-                "selectors": [
-                    "swiper-slide"
-                ],
-                "style": {
-                    "text-align": "center",
-                    "font-size": "18px",
-                    "background-image": "initial",
-                    "background-position-x": "initial",
-                    "background-position-y": "initial",
-                    "background-size": "initial",
-                    "background-repeat-x": "initial",
-                    "background-repeat-y": "initial",
-                    "background-attachment": "initial",
-                    "background-origin": "initial",
-                    "background-clip": "initial",
-                    "background-color": "rgba(240, 248, 255, 0)",
-                    "display": "flex",
-                    "-webkit-box-pack": "center",
-                    "justify-content": "center",
-                    "-webkit-box-align": "center",
-                    "align-items": "center",
-                    "width": "100%",
-                    "height": "90%"
-                },
-                "group": "cmp:regalos"
-            },
-            {
-                "selectors": [
-                    "swiper-button-next"
-                ],
-                "style": {
-                    "position": "absolute",
-                    "top": "330px"
-                },
-                "group": "cmp:regalos"
-            },
-            {
-                "selectors": [
-                    "swiper-button-prev"
-                ],
-                "style": {
-                    "position": "absolute",
-                    "top": "330px"
-                },
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [
@@ -346,22 +218,7 @@ var template = {
                     "padding-right": "79px",
                     "padding-bottom": "1px",
                     "padding-left": "79px"
-                },
-                "group": "cmp:regalos"
-            },
-            {
-                "selectors": [
-                    "regalos"
-                ],
-                "style": {
-                    "padding-top": "1px",
-                    "padding-right": "15px",
-                    "padding-bottom": "1px",
-                    "padding-left": "15px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [
@@ -374,32 +231,7 @@ var template = {
                     "padding-left": "0%",
                     "background-color": "rgb(215, 183, 162)",
                     "position": "relative"
-                },
-                "group": "cmp:regalos"
-            },
-            {
-                "selectors": [
-                    "#regalos"
-                ],
-                "style": {
-                    "padding-top": "10%",
-                    "padding-right": "5%",
-                    "padding-bottom": "14%",
-                    "padding-left": "5%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:regalos"
-            },
-            {
-                "selectors": [
-                    "swiper-container"
-                ],
-                "style": {
-                    "width": "308px",
-                    "height": "537px"
-                },
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [
@@ -410,8 +242,7 @@ var template = {
                     "overflow-y": "hidden",
                     "height": "610px",
                     "width": "100%"
-                },
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [
@@ -423,19 +254,7 @@ var template = {
                     "font-size": "37px",
                     "font-weight": "700",
                     "font-style": "italic"
-                },
-                "group": "cmp:regalos"
-            },
-            {
-                "selectors": [
-                    "tituloregalo"
-                ],
-                "style": {
-                    "font-size": "28px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [
@@ -449,8 +268,7 @@ var template = {
                     "font-weight": "300",
                     "font-style": "normal",
                     "line-height": "28px"
-                },
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [
@@ -458,8 +276,7 @@ var template = {
                 ],
                 "style": {
                     "margin-bottom": "10px"
-                },
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [
@@ -506,8 +323,7 @@ var template = {
                     "border-image-width": "initial",
                     "border-image-outset": "initial",
                     "border-image-repeat": "initial"
-                },
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [
@@ -515,8 +331,7 @@ var template = {
                 ],
                 "style": {
                     "display": "none"
-                },
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [
@@ -542,8 +357,7 @@ var template = {
                     "padding-left": "0px",
                     "font-family": "Montserrat, sans-serif",
                     "color": "rgb(0, 0, 0) !important"
-                },
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [
@@ -570,24 +384,21 @@ var template = {
                     "transition-property": "left",
                     "will-change": "transform",
                     "color": "black"
-                },
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [],
                 "selectorsAdd": ".switcher__input:checked + .switcher__label",
                 "style": {
                     "color": "rgb(255, 255, 255)"
-                },
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [],
                 "selectorsAdd": ".switcher__input--yang:checked ~ .switcher__toggle",
                 "style": {
                     "left": "100px"
-                },
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [
@@ -605,8 +416,8 @@ var template = {
                     "width": "100%",
                     "height": "200px",
                     "background-image": "url(\"https://eleve11.ar/wp-content/uploads/2022/09/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg\")",
-                    "background-position-x": "center",
-                    "background-position-y": "center",
+                    "background-position-x": "50%",
+                    "background-position-y": "50%",
                     "background-size": "initial",
                     "background-repeat-x": "no-repeat",
                     "background-repeat-y": "no-repeat",
@@ -615,8 +426,7 @@ var template = {
                     "background-clip": "initial",
                     "background-color": "initial",
                     "box-shadow": "rgba(7, 7, 7, 0.3) 0px 0px 0px 2000px inset"
-                },
-                "group": "cmp:mensaje"
+                }
             },
             {
                 "selectors": [
@@ -629,19 +439,7 @@ var template = {
                     "font-size": "18px",
                     "font-weight": "500",
                     "font-style": "italic"
-                },
-                "group": "cmp:mensaje"
-            },
-            {
-                "selectors": [
-                    "textodedicatoria"
-                ],
-                "style": {
-                    "font-size": "15px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:mensaje"
+                }
             },
             {
                 "selectors": [
@@ -652,8 +450,7 @@ var template = {
                     "padding-right": "0px",
                     "padding-bottom": "50px",
                     "padding-left": "0px"
-                },
-                "group": "cmp:mensaje"
+                }
             },
             {
                 "selectors": [
@@ -669,8 +466,7 @@ var template = {
                     "padding-right": "10px",
                     "padding-bottom": "10px",
                     "padding-left": "10px"
-                },
-                "group": "cmp:countdown"
+                }
             },
             {
                 "selectors": [
@@ -678,8 +474,7 @@ var template = {
                 ],
                 "style": {
                     "font-size": "4rem"
-                },
-                "group": "cmp:countdown"
+                }
             },
             {
                 "selectors": [
@@ -687,8 +482,7 @@ var template = {
                 ],
                 "style": {
                     "font-size": "5rem"
-                },
-                "group": "cmp:countdown"
+                }
             },
             {
                 "selectors": [
@@ -698,8 +492,7 @@ var template = {
                     "display": "inline-block",
                     "font-family": "\"Noto Serif Display\", sans-serif !important",
                     "color": "white !important"
-                },
-                "group": "cmp:countdown"
+                }
             },
             {
                 "selectors": [
@@ -711,8 +504,8 @@ var template = {
                     "padding-bottom": "40px",
                     "padding-left": "0px",
                     "background-image": "url(\"https://eleve11.ar/wp-content/uploads/2022/09/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg\")",
-                    "background-position-x": "center",
-                    "background-position-y": "center",
+                    "background-position-x": "50%",
+                    "background-position-y": "50%",
                     "background-size": "initial",
                     "background-repeat-x": "no-repeat",
                     "background-repeat-y": "no-repeat",
@@ -720,8 +513,7 @@ var template = {
                     "background-origin": "initial",
                     "background-clip": "initial",
                     "background-color": "initial"
-                },
-                "group": "cmp:contador"
+                }
             },
             {
                 "selectors": [
@@ -730,45 +522,7 @@ var template = {
                 "style": {
                     "background-color": "rgb(51, 51, 51)",
                     "width": "100%"
-                },
-                "group": "cmp:contador"
-            },
-            {
-                "selectors": [
-                    "galeria2"
-                ],
-                "style": {
-                    "padding-top": "4%",
-                    "padding-right": "6%",
-                    "padding-bottom": "4%",
-                    "padding-left": "6%",
-                    "background-color": "rgb(215, 183, 162)"
-                },
-                "group": "cmp:Galeria"
-            },
-            {
-                "selectors": [
-                    "galeria2"
-                ],
-                "style": {
-                    "padding-top": "9%",
-                    "padding-right": "8%",
-                    "padding-bottom": "10%",
-                    "padding-left": "9%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:Galeria"
-            },
-            {
-                "selectors": [
-                    "img_galeria"
-                ],
-                "style": {
-                    "height": "500px",
-                    "object-fit": "cover"
-                },
-                "group": "cmp:Galeria"
+                }
             },
             {
                 "selectors": [
@@ -780,23 +534,7 @@ var template = {
                     "padding-bottom": "4%",
                     "padding-left": "6%",
                     "background-color": "rgb(215, 183, 162)"
-                },
-                "group": "cmp:listaregalos"
-            },
-            {
-                "selectors": [
-                    "eventos2"
-                ],
-                "style": {
-                    "padding-top": "15%",
-                    "padding-right": "10%",
-                    "padding-bottom": "15%",
-                    "padding-left": "10%",
-                    "background-color": "rgb(215, 183, 162)"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:listaregalos"
+                }
             },
             {
                 "selectors": [
@@ -808,8 +546,7 @@ var template = {
                     "font-size": "18px",
                     "font-weight": "700",
                     "text-transform": "uppercase"
-                },
-                "group": "cmp:listaregalos"
+                }
             },
             {
                 "selectors": [
@@ -826,88 +563,7 @@ var template = {
                     "border-bottom-left-radius": "100px",
                     "width": "180px",
                     "margin-bottom": "13px"
-                },
-                "group": "cmp:listaregalos"
-            },
-            {
-                "selectors": [
-                    "contenedor-texto"
-                ],
-                "style": {
-                    "width": "fit-content"
-                },
-                "group": "cmp:Portada"
-            },
-            {
-                "selectors": [
-                    "sectionHistoriaWestern"
-                ],
-                "style": {
-                    "background-color": "rgb(51, 51, 51)",
-                    "transition-duration": "0.3s, 0.3s, 0.3s, 0.3s",
-                    "transition-timing-function": "ease, ease, ease, ease",
-                    "transition-delay": "0s, 0s, 0s, 0s",
-                    "transition-property": "background, border, border-radius, box-shadow",
-                    "padding-top": "4%",
-                    "padding-right": "4%",
-                    "padding-bottom": "7%",
-                    "padding-left": "4%"
-                },
-                "group": "cmp:historia"
-            },
-            {
-                "selectors": [
-                    "#sectionHistoriaWestern"
-                ],
-                "style": {
-                    "padding-top": "6%",
-                    "padding-right": "3%",
-                    "padding-bottom": "12%",
-                    "padding-left": "3%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:historia"
-            },
-            {
-                "selectors": [
-                    "tituloHistoriaWestern"
-                ],
-                "style": {
-                    "color": "rgb(255, 255, 255)",
-                    "font-family": "\"Noto Serif Display\", sans-serif",
-                    "font-size": "40px",
-                    "font-weight": "400",
-                    "font-style": "italic",
-                    "margin-bottom": "35px"
-                },
-                "group": "cmp:historia"
-            },
-            {
-                "selectors": [
-                    "tituloHistoriaWestern"
-                ],
-                "style": {
-                    "font-size": "28px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:historia"
-            },
-            {
-                "selectors": [
-                    "textoHistoriaWestern"
-                ],
-                "style": {
-                    "text-align": "center",
-                    "color": "rgb(255, 255, 255)",
-                    "font-family": "Montserrat, sans-serif",
-                    "font-size": "15px",
-                    "font-weight": "300",
-                    "font-style": "normal",
-                    "line-height": "28px"
-                },
-                "group": "cmp:historia"
+                }
             },
             {
                 "selectors": [],
@@ -916,8 +572,7 @@ var template = {
                     "position": "relative",
                     "z-index": "100",
                     "backface-visibility": "hidden"
-                },
-                "group": "cmp:padrinosWestern"
+                }
             },
             {
                 "selectors": [],
@@ -956,182 +611,13 @@ var template = {
             },
             {
                 "selectors": [
-                    "sectionHashtagWestern"
-                ],
-                "style": {
-                    "background-color": "white",
-                    "padding-top": "4%",
-                    "padding-right": "4%",
-                    "padding-bottom": "4%",
-                    "padding-left": "4%"
-                },
-                "group": "cmp:Hashtag"
-            },
-            {
-                "selectors": [
-                    "sectionHashtagWestern"
-                ],
-                "style": {
-                    "padding-top": "8%",
-                    "padding-right": "0%",
-                    "padding-bottom": "12%",
-                    "padding-left": "0%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:Hashtag"
-            },
-            {
-                "selectors": [
-                    "tituloHashtagWestern"
-                ],
-                "style": {
-                    "color": "rgb(0, 0, 0)",
-                    "font-family": "\"Noto Serif Display\", sans-serif",
-                    "font-size": "35px",
-                    "font-weight": "700",
-                    "font-style": "italic"
-                },
-                "group": "cmp:Hashtag"
-            },
-            {
-                "selectors": [
-                    "tituloHashtagWestern"
-                ],
-                "style": {
-                    "font-size": "25px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:Hashtag"
-            },
-            {
-                "selectors": [
-                    "hashtagWestern"
-                ],
-                "style": {
-                    "margin-bottom": "40px",
-                    "color": "rgb(215, 183, 162)",
-                    "font-family": "Montserrat, sans-serif",
-                    "font-size": "25px",
-                    "font-weight": "700",
-                    "text-transform": "uppercase",
-                    "letter-spacing": "5px",
-                    "text-align": "center"
-                },
-                "group": "cmp:Hashtag"
-            },
-            {
-                "selectors": [
-                    "hashtagWestern"
-                ],
-                "style": {
-                    "margin-bottom": "20px",
-                    "font-size": "23px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:Hashtag"
-            },
-            {
-                "selectors": [
-                    "botonHashtagWestern"
-                ],
-                "style": {
-                    "font-family": "Montserrat, sans-serif",
-                    "font-size": "11px",
-                    "font-weight": "600",
-                    "color": "black",
-                    "background-color": "rgb(231, 216, 203)",
-                    "border-top-left-radius": "100px",
-                    "border-top-right-radius": "100px",
-                    "border-bottom-right-radius": "100px",
-                    "border-bottom-left-radius": "100px",
-                    "padding-top": "15px",
-                    "padding-right": "40px",
-                    "padding-bottom": "12px",
-                    "padding-left": "40px",
-                    "border-top-color": "white",
-                    "border-right-color": "white",
-                    "border-bottom-color": "white",
-                    "border-left-color": "white",
-                    "text-decoration-line": "none",
-                    "text-decoration-thickness": "initial",
-                    "text-decoration-style": "initial",
-                    "text-decoration-color": "initial"
-                },
-                "group": "cmp:Hashtag"
-            },
-            {
-                "selectors": [
-                    "contadorfinal"
-                ],
-                "style": {
-                    "padding-top": "60px",
-                    "padding-right": "0px",
-                    "padding-bottom": "40px",
-                    "padding-left": "0px",
-                    "background-image": "url(\"https://eleve11.ar/wp-content/uploads/2022/09/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg\")",
-                    "background-position-x": "center",
-                    "background-position-y": "center",
-                    "background-size": "initial",
-                    "background-repeat-x": "no-repeat",
-                    "background-repeat-y": "no-repeat",
-                    "background-attachment": "fixed",
-                    "background-origin": "initial",
-                    "background-clip": "initial",
-                    "background-color": "initial",
-                    "box-shadow": "rgba(7, 7, 7, 0.67) 0px 0px 0px 2000px inset"
-                },
-                "group": "cmp:contador"
-            },
-            {
-                "selectors": [
-                    "contenedor_contador"
-                ],
-                "style": {
-                    "width": "100%"
-                },
-                "group": "cmp:contador"
-            },
-            {
-                "selectors": [
-                    "divregalos"
-                ],
-                "style": {
-                    "padding-top": "4%",
-                    "padding-right": "0%",
-                    "padding-bottom": "6%",
-                    "padding-left": "0%",
-                    "background-color": "rgb(215, 183, 162)",
-                    "position": "relative"
-                },
-                "group": "cmp:regalos"
-            },
-            {
-                "selectors": [
-                    "divregalos"
-                ],
-                "style": {
-                    "padding-top": "10%",
-                    "padding-right": "5%",
-                    "padding-bottom": "14%",
-                    "padding-left": "5%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:regalos"
-            },
-            {
-                "selectors": [
                     "datosbancarios"
                 ],
                 "style": {
                     "font-family": "Montserrat, sans-serif",
                     "font-size": "13px",
                     "font-weight": "700"
-                },
-                "group": "cmp:regalos"
+                }
             },
             {
                 "selectors": [
@@ -1143,22 +629,7 @@ var template = {
                     "padding-right": "10%",
                     "padding-bottom": "5%",
                     "padding-left": "10%"
-                },
-                "group": "cmp:confirmacion"
-            },
-            {
-                "selectors": [
-                    "confirmacion"
-                ],
-                "style": {
-                    "padding-top": "5%",
-                    "padding-right": "3%",
-                    "padding-bottom": "5%",
-                    "padding-left": "3%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:confirmacion"
+                }
             },
             {
                 "selectors": [
@@ -1169,22 +640,7 @@ var template = {
                     "padding-right": "0%",
                     "padding-bottom": "0%",
                     "padding-left": "20%"
-                },
-                "group": "cmp:confirmacion"
-            },
-            {
-                "selectors": [
-                    "divconfirmacion"
-                ],
-                "style": {
-                    "padding-top": "5%",
-                    "padding-right": "3%",
-                    "padding-bottom": "5%",
-                    "padding-left": "3%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:confirmacion"
+                }
             },
             {
                 "selectors": [
@@ -1197,19 +653,7 @@ var template = {
                     "font-size": "35px",
                     "font-weight": "700",
                     "font-style": "italic"
-                },
-                "group": "cmp:confirmacion"
-            },
-            {
-                "selectors": [
-                    "tituloconfirmacion"
-                ],
-                "style": {
-                    "font-size": "27px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:confirmacion"
+                }
             },
             {
                 "selectors": [
@@ -1223,19 +667,7 @@ var template = {
                     "font-weight": "300",
                     "font-style": "normal",
                     "line-height": "28px"
-                },
-                "group": "cmp:confirmacion"
-            },
-            {
-                "selectors": [
-                    "textoconfirmacion"
-                ],
-                "style": {
-                    "font-size": "14px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:confirmacion"
+                }
             },
             {
                 "selectors": [
@@ -1250,26 +682,7 @@ var template = {
                     "padding-right": "0px",
                     "padding-bottom": "0px",
                     "padding-left": "0px"
-                },
-                "group": "cmp:confirmacion"
-            },
-            {
-                "selectors": [
-                    "divformconfirmacion"
-                ],
-                "style": {
-                    "padding-top": "0px",
-                    "padding-right": "0px",
-                    "padding-bottom": "0px",
-                    "padding-left": "0px",
-                    "margin-top": "0px",
-                    "margin-right": "0px",
-                    "margin-bottom": "0px",
-                    "margin-left": "0px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:confirmacion"
+                }
             },
             {
                 "selectors": [
@@ -1297,8 +710,7 @@ var template = {
                     "text-decoration-thickness": "initial",
                     "text-decoration-style": "initial",
                     "text-decoration-color": "initial"
-                },
-                "group": "cmp:Canciones"
+                }
             },
             {
                 "selectors": [
@@ -1331,8 +743,7 @@ var template = {
                     "margin-bottom": "0px",
                     "margin-left": "0px",
                     "height": "50px"
-                },
-                "group": "cmp:Canciones"
+                }
             },
             {
                 "selectors": [
@@ -1344,22 +755,7 @@ var template = {
                     "padding-bottom": "4%",
                     "padding-left": "4%",
                     "background-color": "white"
-                },
-                "group": "cmp:Transporte"
-            },
-            {
-                "selectors": [
-                    "#canciones"
-                ],
-                "style": {
-                    "padding-top": "8%",
-                    "padding-right": "5%",
-                    "padding-bottom": "8%",
-                    "padding-left": "5%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:Canciones"
+                }
             },
             {
                 "selectors": [
@@ -1367,8 +763,7 @@ var template = {
                 ],
                 "style": {
                     "margin-bottom": "1rem"
-                },
-                "group": "cmp:Transporte"
+                }
             },
             {
                 "selectors": [
@@ -1381,19 +776,7 @@ var template = {
                     "font-weight": "700",
                     "font-style": "italic",
                     "margin-bottom": "20px"
-                },
-                "group": "cmp:Canciones"
-            },
-            {
-                "selectors": [
-                    "tituloCancion"
-                ],
-                "style": {
-                    "font-size": "25px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:Canciones"
+                }
             },
             {
                 "selectors": [
@@ -1408,22 +791,7 @@ var template = {
                     "padding-right": "0px",
                     "padding-bottom": "30px",
                     "padding-left": "0px"
-                },
-                "group": "cmp:Transporte"
-            },
-            {
-                "selectors": [
-                    "divtransporte"
-                ],
-                "style": {
-                    "margin-top": "0%",
-                    "margin-right": "0%",
-                    "margin-bottom": "0%",
-                    "margin-left": "0%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:Transporte"
+                }
             },
             {
                 "selectors": [
@@ -1435,8 +803,7 @@ var template = {
                     "padding-bottom": "4%",
                     "padding-left": "4%",
                     "background-color": "white"
-                },
-                "group": "cmp:Canciones"
+                }
             },
             {
                 "selectors": [
@@ -1467,7 +834,8 @@ var template = {
                     "textocanciones"
                 ],
                 "style": {
-                    "font-family": "Montserrat"
+                    "font-family": "Montserrat",
+                    "font-weight": "700"
                 }
             },
             {
@@ -1476,7 +844,8 @@ var template = {
                     "text-light"
                 ],
                 "style": {
-                    "font-family": "Montserrat"
+                    "font-family": "Montserrat",
+                    "font-weight": "700"
                 }
             },
             {
@@ -1484,7 +853,8 @@ var template = {
                     "labelform"
                 ],
                 "style": {
-                    "font-family": "Montserrat"
+                    "font-family": "Montserrat",
+                    "font-weight": "700"
                 }
             },
             {
@@ -1500,7 +870,8 @@ var template = {
                     "card-text"
                 ],
                 "style": {
-                    "font-family": "Montserrat"
+                    "font-family": "Montserrat",
+                    "font-weight": "700"
                 }
             },
             {
@@ -1508,7 +879,8 @@ var template = {
                     "card-lugar"
                 ],
                 "style": {
-                    "font-family": "Montserrat"
+                    "font-family": "Montserrat",
+                    "font-weight": "700"
                 }
             },
             {
@@ -1516,7 +888,8 @@ var template = {
                     "#ib34i"
                 ],
                 "style": {
-                    "font-family": "Montserrat"
+                    "font-family": "Montserrat",
+                    "font-weight": "700"
                 }
             },
             {
@@ -1524,7 +897,8 @@ var template = {
                     "#irclw"
                 ],
                 "style": {
-                    "font-family": "Montserrat"
+                    "font-family": "Montserrat",
+                    "font-weight": "700"
                 }
             },
             {
@@ -1532,7 +906,8 @@ var template = {
                     "#ir8sk"
                 ],
                 "style": {
-                    "font-family": "Montserrat"
+                    "font-family": "Montserrat",
+                    "font-weight": "700"
                 }
             },
             {
@@ -1545,22 +920,7 @@ var template = {
                     "padding-right": "18%",
                     "padding-bottom": "8%",
                     "padding-left": "18%"
-                },
-                "group": "cmp:recomendacion"
-            },
-            {
-                "selectors": [
-                    "#recomendaciones"
-                ],
-                "style": {
-                    "padding-top": "8%",
-                    "padding-right": "5%",
-                    "padding-bottom": "12%",
-                    "padding-left": "5%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [
@@ -1572,8 +932,7 @@ var template = {
                     "font-size": "14px",
                     "font-weight": "700",
                     "line-height": "20px"
-                },
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [],
@@ -1581,8 +940,7 @@ var template = {
                 "style": {
                     "background-color": "rgba(231, 241, 255, 0) !important",
                     "color": "black !important"
-                },
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [],
@@ -1592,8 +950,7 @@ var template = {
                     "border-top-right-radius": "19px !important",
                     "border-bottom-right-radius": "19px !important",
                     "border-bottom-left-radius": "19px !important"
-                },
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [
@@ -1604,8 +961,7 @@ var template = {
                     "border-top-right-radius": "19px !important",
                     "border-bottom-right-radius": "19px !important",
                     "border-bottom-left-radius": "19px !important"
-                },
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [
@@ -1618,18 +974,16 @@ var template = {
                     "border-bottom-color": "rgba(0, 0, 0, 0.125) !important",
                     "border-left-color": "rgba(0, 0, 0, 0.125) !important"
                 },
-                "state": "focus",
-                "group": "cmp:recomendacion"
+                "state": "focus"
             },
             {
                 "selectors": [
                     "accordion"
                 ],
                 "style": {
-                    "--bs-accordion-btn-icon": " url(\"https://cdn-icons-png.flaticon.com/512/61/61932.png\")",
-                    "--bs-accordion-btn-active-icon": " url(\"https://cdn-icons-png.flaticon.com/512/25/25637.png\")"
-                },
-                "group": "cmp:recomendacion"
+                    "--bs-accordion-btn-icon": "url(\"https://cdn-icons-png.flaticon.com/512/61/61932.png\")",
+                    "--bs-accordion-btn-active-icon": "url(\"https://cdn-icons-png.flaticon.com/512/25/25637.png\")"
+                }
             },
             {
                 "selectors": [
@@ -1640,8 +994,7 @@ var template = {
                     "font-family": "Montserrat, sans-serif",
                     "font-size": "17px",
                     "font-weight": "800 !important"
-                },
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [
@@ -1653,8 +1006,7 @@ var template = {
                     "font-size": "16px",
                     "font-weight": "700",
                     "text-transform": "uppercase"
-                },
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [
@@ -1666,8 +1018,7 @@ var template = {
                     "border-top-right-radius": "10px",
                     "border-bottom-right-radius": "10px",
                     "border-bottom-left-radius": "10px"
-                },
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [
@@ -1680,19 +1031,7 @@ var template = {
                     "font-weight": "700",
                     "font-style": "italic",
                     "margin-bottom": "24px"
-                },
-                "group": "cmp:recomendacion"
-            },
-            {
-                "selectors": [
-                    "titulorecomendacion"
-                ],
-                "style": {
-                    "font-size": "25px"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [],
@@ -1707,8 +1046,7 @@ var template = {
                     "border-right-color": "rgb(238, 238, 238)",
                     "border-bottom-color": "rgb(238, 238, 238)",
                     "border-left-color": "rgb(238, 238, 238)"
-                },
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [],
@@ -1728,17 +1066,7 @@ var template = {
                     "border-right-color": "rgb(238, 238, 238)",
                     "border-bottom-color": "rgb(238, 238, 238)",
                     "border-left-color": "rgb(238, 238, 238)"
-                },
-                "group": "cmp:recomendacion"
-            },
-            {
-                "selectors": [
-                    "panel-title"
-                ],
-                "style": {
-                    "font-size": "14px"
-                },
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [],
@@ -1753,26 +1081,14 @@ var template = {
                     "text-decoration-thickness": "initial",
                     "text-decoration-style": "initial",
                     "text-decoration-color": "initial"
-                },
-                "group": "cmp:recomendacion"
-            },
-            {
-                "selectors": [
-                    "more-less"
-                ],
-                "style": {
-                    "float": "right",
-                    "color": "rgb(33, 33, 33)"
-                },
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [],
                 "selectorsAdd": ".panel-default > .panel-heading + .panel-collapse > .panel-body",
                 "style": {
                     "border-top-color": "rgb(238, 238, 238)"
-                },
-                "group": "cmp:recomendacion"
+                }
             },
             {
                 "selectors": [
@@ -1826,20 +1142,6 @@ var template = {
             },
             {
                 "selectors": [
-                    "padrinos"
-                ],
-                "style": {
-                    "padding-top": "8%",
-                    "padding-right": "0%",
-                    "padding-bottom": "12%",
-                    "padding-left": "0%"
-                },
-                "mediaText": "only screen and (max-width: 768px)",
-                "atRuleType": "media",
-                "group": "cmp:padrinosWestern"
-            },
-            {
-                "selectors": [
                     "image-cover"
                 ],
                 "style": {
@@ -1880,7 +1182,7 @@ var template = {
                     "color": "rgb(0, 0, 0)",
                     "font-family": "Montserrat",
                     "font-size": "16px",
-                    "font-weight": "500"
+                    "font-weight": "700"
                 },
                 "group": "cmp:padrinosWestern"
             },
@@ -1898,6 +1200,286 @@ var template = {
                 "group": "cmp:padrinosWestern"
             },
             {
+                "selectors": [],
+                "selectorsAdd": ".padrinos-owl .item-padrinos",
+                "style": {
+                    "position": "relative",
+                    "z-index": "100",
+                    "backface-visibility": "hidden"
+                },
+                "group": "cmp:padrinosWestern"
+            },
+            {
+                "selectors": [
+                    "galeria2"
+                ],
+                "style": {
+                    "padding-top": "4%",
+                    "padding-right": "6%",
+                    "padding-bottom": "4%",
+                    "padding-left": "6%",
+                    "background-color": "rgb(215, 183, 162)"
+                }
+            },
+            {
+                "selectors": [
+                    "img_galeria"
+                ],
+                "style": {
+                    "height": "500px",
+                    "object-fit": "cover"
+                }
+            },
+            {
+                "selectors": [
+                    "owl-carousel"
+                ],
+                "style": {
+                    "justify-content": "center",
+                    "display": "flex !important"
+                }
+            },
+            {
+                "selectors": [
+                    "tituloHistoria"
+                ],
+                "style": {
+                    "font-size": "28px"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "hashtag2"
+                ],
+                "style": {
+                    "padding-top": "8%",
+                    "padding-right": "0%",
+                    "padding-bottom": "12%",
+                    "padding-left": "0%"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "titulohashtag"
+                ],
+                "style": {
+                    "font-size": "25px"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "hashtag"
+                ],
+                "style": {
+                    "margin-bottom": "20px",
+                    "font-size": "23px"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "#vestimenta"
+                ],
+                "style": {
+                    "padding-top": "8%",
+                    "padding-right": "0%",
+                    "padding-bottom": "12%",
+                    "padding-left": "0%"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "regalos"
+                ],
+                "style": {
+                    "padding-top": "1px",
+                    "padding-right": "15px",
+                    "padding-bottom": "1px",
+                    "padding-left": "15px"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "#regalos"
+                ],
+                "style": {
+                    "padding-top": "10%",
+                    "padding-right": "5%",
+                    "padding-bottom": "14%",
+                    "padding-left": "5%"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "tituloregalo"
+                ],
+                "style": {
+                    "font-size": "28px"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "textodedicatoria"
+                ],
+                "style": {
+                    "font-size": "15px"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "eventos2"
+                ],
+                "style": {
+                    "padding-top": "15%",
+                    "padding-right": "10%",
+                    "padding-bottom": "15%",
+                    "padding-left": "10%",
+                    "background-color": "rgb(215, 183, 162)"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "divconfirmacion"
+                ],
+                "style": {
+                    "padding-top": "5%",
+                    "padding-right": "3%",
+                    "padding-bottom": "5%",
+                    "padding-left": "3%"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "tituloconfirmacion"
+                ],
+                "style": {
+                    "font-size": "27px"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "textoconfirmacion"
+                ],
+                "style": {
+                    "font-size": "14px"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "divformconfirmacion"
+                ],
+                "style": {
+                    "padding-top": "0px",
+                    "padding-right": "0px",
+                    "padding-bottom": "0px",
+                    "padding-left": "0px",
+                    "margin-top": "0px",
+                    "margin-right": "0px",
+                    "margin-bottom": "0px",
+                    "margin-left": "0px"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "#canciones"
+                ],
+                "style": {
+                    "padding-top": "8%",
+                    "padding-right": "5%",
+                    "padding-bottom": "8%",
+                    "padding-left": "5%"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "tituloCancion"
+                ],
+                "style": {
+                    "font-size": "25px"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "divtransporte"
+                ],
+                "style": {
+                    "margin-top": "0%",
+                    "margin-right": "0%",
+                    "margin-bottom": "0%",
+                    "margin-left": "0%"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "#recomendaciones"
+                ],
+                "style": {
+                    "padding-top": "8%",
+                    "padding-right": "5%",
+                    "padding-bottom": "12%",
+                    "padding-left": "5%"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "titulorecomendacion"
+                ],
+                "style": {
+                    "font-size": "25px"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "padrinos"
+                ],
+                "style": {
+                    "padding-top": "8%",
+                    "padding-right": "0%",
+                    "padding-bottom": "12%",
+                    "padding-left": "0%"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media",
+                "group": "cmp:padrinosWestern"
+            },
+            {
                 "selectors": [
                     "titulopadrino"
                 ],
@@ -1907,6 +1489,19 @@ var template = {
                 "mediaText": "only screen and (max-width: 768px)",
                 "atRuleType": "media",
                 "group": "cmp:padrinosWestern"
+            },
+            {
+                "selectors": [
+                    "galeria2"
+                ],
+                "style": {
+                    "padding-top": "9%",
+                    "padding-right": "8%",
+                    "padding-bottom": "10%",
+                    "padding-left": "9%"
+                },
+                "mediaText": "only screen and (max-width: 768px)",
+                "atRuleType": "media"
             },
             {
                 "selectors": [
@@ -1923,14 +1518,52 @@ var template = {
                     "#ispm"
                 ],
                 "style": {
-                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg')",
-                    "background-repeat": "no-repeat",
-                    "background-position": "center center",
+                    "background-image": "url(\"https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg\")",
+                    "background-repeat-x": "no-repeat",
+                    "background-repeat-y": "no-repeat",
+                    "background-position-x": "50%",
+                    "background-position-y": "50%",
                     "background-attachment": "scroll",
                     "background-size": "cover"
                 },
                 "mediaText": "(max-width: 768px)",
                 "atRuleType": "media"
+            },
+            {
+                "selectors": [
+                    "labelform",
+                    "p-1"
+                ],
+                "style": {
+                    "font-weight": "700"
+                }
+            },
+            {
+                "selectors": [
+                    "switcher__label",
+                    "yang"
+                ],
+                "style": {
+                    "font-weight": "700"
+                }
+            },
+            {
+                "selectors": [
+                    "switcher__label",
+                    "yin"
+                ],
+                "style": {
+                    "font-weight": "700"
+                }
+            },
+            {
+                "selectors": [
+                    "form-control",
+                    "inputEmail4"
+                ],
+                "style": {
+                    "font-weight": "700"
+                }
             }
         ],
         "pages": [
@@ -1950,7 +1583,6 @@ var template = {
                             ],
                             "components": [
                                 {
-                                    "type": "Portada",
                                     "attributes": {
                                         "id": "ispm"
                                     },
@@ -1965,7 +1597,6 @@ var template = {
                                                     "resizable": {
                                                         "ratioDefault": 1
                                                     },
-                                                    "layerable": false,
                                                     "classes": [
                                                         "foto1"
                                                     ],
@@ -1980,7 +1611,6 @@ var template = {
                                                     "resizable": {
                                                         "ratioDefault": 1
                                                     },
-                                                    "layerable": false,
                                                     "classes": [
                                                         "foto2"
                                                     ],
@@ -1991,15 +1621,10 @@ var template = {
                                                     }
                                                 },
                                                 {
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "components": [
                                                         {
                                                             "tagName": "h1",
                                                             "type": "text",
-                                                            "highlightable": false,
                                                             "classes": [
                                                                 "texto-portada"
                                                             ],
@@ -2014,52 +1639,31 @@ var template = {
                                                 }
                                             ]
                                         }
-                                    ],
-                                    "src": "https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg"
+                                    ]
                                 },
                                 {
-                                    "type": "historia",
                                     "attributes": {
                                         "id": "i577"
                                     },
                                     "components": [
                                         {
                                             "tagName": "section",
-                                            "droppable": false,
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "hoverable": false,
                                             "classes": [
                                                 "historia"
                                             ],
                                             "components": [
                                                 {
-                                                    "droppable": false,
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "classes": [
                                                         "container"
                                                     ],
                                                     "components": [
                                                         {
-                                                            "droppable": false,
-                                                            "highlightable": false,
-                                                            "layerable": false,
-                                                            "selectable": false,
-                                                            "hoverable": false,
                                                             "classes": [
                                                                 "row",
                                                                 "text-xs-center"
                                                             ],
                                                             "components": [
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-md-12",
                                                                         "text-center"
@@ -2072,7 +1676,6 @@ var template = {
                                                                         {
                                                                             "tagName": "h2",
                                                                             "type": "text",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "tituloHistoria"
                                                                             ],
@@ -2090,7 +1693,6 @@ var template = {
                                                                         {
                                                                             "tagName": "p",
                                                                             "type": "text",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "textoHistoria"
                                                                             ],
@@ -2128,49 +1730,28 @@ var template = {
                                     ]
                                 },
                                 {
-                                    "type": "Galeria",
                                     "attributes": {
-                                        "id": "ieirh"
+                                        "id": "ify5li"
                                     },
                                     "components": [
                                         {
                                             "tagName": "section",
-                                            "droppable": false,
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "selectable": false,
-                                            "hoverable": false,
                                             "classes": [
                                                 "galeria2"
                                             ],
                                             "components": [
                                                 {
-                                                    "droppable": false,
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "classes": [
                                                         "container"
                                                     ],
                                                     "components": [
                                                         {
-                                                            "droppable": false,
-                                                            "highlightable": false,
-                                                            "layerable": false,
-                                                            "selectable": false,
-                                                            "hoverable": false,
                                                             "classes": [
                                                                 "row",
                                                                 "text-xs-center"
                                                             ],
                                                             "components": [
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-md-12",
                                                                         "text-center",
@@ -2179,32 +1760,18 @@ var template = {
                                                                     ],
                                                                     "components": [
                                                                         {
-                                                                            "droppable": false,
-                                                                            "highlightable": false,
-                                                                            "layerable": false,
-                                                                            "selectable": false,
-                                                                            "hoverable": false,
                                                                             "classes": [
                                                                                 "carousel-wrap"
                                                                             ],
                                                                             "components": [
                                                                                 {
-                                                                                    "droppable": false,
-                                                                                    "highlightable": false,
-                                                                                    "layerable": false,
-                                                                                    "selectable": false,
-                                                                                    "hoverable": false,
                                                                                     "classes": [
                                                                                         "owl-carousel",
-                                                                                        "galeria"
+                                                                                        "galeria",
+                                                                                        "owl-theme"
                                                                                     ],
                                                                                     "components": [
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "item"
                                                                                             ],
@@ -2224,11 +1791,6 @@ var template = {
                                                                                             ]
                                                                                         },
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "item"
                                                                                             ],
@@ -2248,11 +1810,6 @@ var template = {
                                                                                             ]
                                                                                         },
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "item"
                                                                                             ],
@@ -2272,11 +1829,6 @@ var template = {
                                                                                             ]
                                                                                         },
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "item"
                                                                                             ],
@@ -2296,11 +1848,6 @@ var template = {
                                                                                             ]
                                                                                         },
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "item"
                                                                                             ],
@@ -2331,42 +1878,25 @@ var template = {
                                                 }
                                             ]
                                         }
-                                    ],
-                                    "scriptUpdated": 1
+                                    ]
                                 },
                                 {
-                                    "type": "Hashtag",
                                     "attributes": {
                                         "id": "ip4sg"
                                     },
                                     "components": [
                                         {
                                             "tagName": "section",
-                                            "droppable": false,
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "selectable": false,
-                                            "hoverable": false,
                                             "classes": [
                                                 "hashtag2"
                                             ],
                                             "components": [
                                                 {
-                                                    "droppable": false,
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "classes": [
                                                         "container"
                                                     ],
                                                     "components": [
                                                         {
-                                                            "droppable": false,
-                                                            "highlightable": false,
-                                                            "layerable": false,
-                                                            "selectable": false,
-                                                            "hoverable": false,
                                                             "classes": [
                                                                 "row",
                                                                 "text-xs-center",
@@ -2375,11 +1905,6 @@ var template = {
                                                             ],
                                                             "components": [
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-md-12",
                                                                         "text-center"
@@ -2392,7 +1917,6 @@ var template = {
                                                                         {
                                                                             "tagName": "h3",
                                                                             "type": "text",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "titulohashtag"
                                                                             ],
@@ -2410,7 +1934,6 @@ var template = {
                                                                         {
                                                                             "tagName": "h5",
                                                                             "type": "text",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "hashtag"
                                                                             ],
@@ -2427,7 +1950,6 @@ var template = {
                                                                         },
                                                                         {
                                                                             "type": "link",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "botonhashtag"
                                                                             ],
@@ -2449,49 +1971,28 @@ var template = {
                                     ]
                                 },
                                 {
-                                    "type": "eventos",
                                     "attributes": {
                                         "id": "iyimm"
                                     },
                                     "components": [
                                         {
                                             "tagName": "section",
-                                            "droppable": false,
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "selectable": false,
-                                            "hoverable": false,
                                             "classes": [
                                                 "eventos2"
                                             ],
                                             "components": [
                                                 {
-                                                    "droppable": false,
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "classes": [
                                                         "container"
                                                     ],
                                                     "components": [
                                                         {
-                                                            "droppable": false,
-                                                            "highlightable": false,
-                                                            "layerable": false,
-                                                            "selectable": false,
-                                                            "hoverable": false,
                                                             "classes": [
                                                                 "row",
                                                                 "text-xs-center"
                                                             ],
                                                             "components": [
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-md-12",
                                                                         "text-center",
@@ -2500,32 +2001,17 @@ var template = {
                                                                     ],
                                                                     "components": [
                                                                         {
-                                                                            "droppable": false,
-                                                                            "highlightable": false,
-                                                                            "layerable": false,
-                                                                            "selectable": false,
-                                                                            "hoverable": false,
                                                                             "classes": [
                                                                                 "carousel-wrap"
                                                                             ],
                                                                             "components": [
                                                                                 {
-                                                                                    "droppable": false,
-                                                                                    "highlightable": false,
-                                                                                    "layerable": false,
-                                                                                    "selectable": false,
-                                                                                    "hoverable": false,
                                                                                     "classes": [
                                                                                         "owl-carousel",
                                                                                         "eventos_owl"
                                                                                     ],
                                                                                     "components": [
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "card",
                                                                                                 "p-4"
@@ -2545,11 +2031,6 @@ var template = {
                                                                                                     }
                                                                                                 },
                                                                                                 {
-                                                                                                    "droppable": false,
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "card-body"
                                                                                                     ],
@@ -2568,11 +2049,6 @@ var template = {
                                                                                                             ]
                                                                                                         },
                                                                                                         {
-                                                                                                            "droppable": false,
-                                                                                                            "highlightable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "divhorario"
                                                                                                             ],
@@ -2601,7 +2077,7 @@ var template = {
                                                                                                             "components": [
                                                                                                                 {
                                                                                                                     "type": "textnode",
-                                                                                                                    "content": "REGISTRO CIVIL CENTRAL"
+                                                                                                                    "content": "REGISTRO CIVIL"
                                                                                                                 }
                                                                                                             ]
                                                                                                         },
@@ -2646,11 +2122,6 @@ var template = {
                                                                                             ]
                                                                                         },
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "card",
                                                                                                 "p-4"
@@ -2670,11 +2141,6 @@ var template = {
                                                                                                     }
                                                                                                 },
                                                                                                 {
-                                                                                                    "droppable": false,
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "card-body"
                                                                                                     ],
@@ -2693,11 +2159,6 @@ var template = {
                                                                                                             ]
                                                                                                         },
                                                                                                         {
-                                                                                                            "droppable": false,
-                                                                                                            "highlightable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "divhorario"
                                                                                                             ],
@@ -2771,11 +2232,6 @@ var template = {
                                                                                             ]
                                                                                         },
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "card",
                                                                                                 "p-4"
@@ -2795,11 +2251,6 @@ var template = {
                                                                                                     }
                                                                                                 },
                                                                                                 {
-                                                                                                    "droppable": false,
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "card-body"
                                                                                                     ],
@@ -2818,11 +2269,6 @@ var template = {
                                                                                                             ]
                                                                                                         },
                                                                                                         {
-                                                                                                            "droppable": false,
-                                                                                                            "highlightable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "divhorario"
                                                                                                             ],
@@ -2907,42 +2353,25 @@ var template = {
                                                 }
                                             ]
                                         }
-                                    ],
-                                    "scriptUpdated": 1
+                                    ]
                                 },
                                 {
-                                    "type": "Vestimenta",
                                     "attributes": {
                                         "id": "ic7y1"
                                     },
                                     "components": [
                                         {
                                             "tagName": "section",
-                                            "droppable": false,
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "selectable": false,
-                                            "hoverable": false,
                                             "attributes": {
                                                 "id": "vestimenta"
                                             },
                                             "components": [
                                                 {
-                                                    "droppable": false,
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "classes": [
                                                         "container"
                                                     ],
                                                     "components": [
                                                         {
-                                                            "droppable": false,
-                                                            "highlightable": false,
-                                                            "layerable": false,
-                                                            "selectable": false,
-                                                            "hoverable": false,
                                                             "classes": [
                                                                 "row",
                                                                 "text-xs-center",
@@ -2951,11 +2380,6 @@ var template = {
                                                             ],
                                                             "components": [
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-md-12",
                                                                         "text-center"
@@ -2968,7 +2392,6 @@ var template = {
                                                                         {
                                                                             "tagName": "h3",
                                                                             "type": "text",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "titulohashtag",
                                                                                 "text-light"
@@ -2987,7 +2410,6 @@ var template = {
                                                                         {
                                                                             "tagName": "h5",
                                                                             "type": "text",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "hashtag"
                                                                             ],
@@ -3010,7 +2432,6 @@ var template = {
                                                                         {
                                                                             "tagName": "button",
                                                                             "type": "text",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "botonhashtag"
                                                                             ],
@@ -3032,11 +2453,6 @@ var template = {
                                                                             "content": " Modal "
                                                                         },
                                                                         {
-                                                                            "droppable": false,
-                                                                            "highlightable": false,
-                                                                            "layerable": false,
-                                                                            "selectable": false,
-                                                                            "hoverable": false,
                                                                             "classes": [
                                                                                 "modal",
                                                                                 "fade"
@@ -3049,31 +2465,16 @@ var template = {
                                                                             },
                                                                             "components": [
                                                                                 {
-                                                                                    "droppable": false,
-                                                                                    "highlightable": false,
-                                                                                    "layerable": false,
-                                                                                    "selectable": false,
-                                                                                    "hoverable": false,
                                                                                     "classes": [
                                                                                         "modal-dialog"
                                                                                     ],
                                                                                     "components": [
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "modal-content"
                                                                                             ],
                                                                                             "components": [
                                                                                                 {
-                                                                                                    "droppable": false,
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "modal-header"
                                                                                                     ],
@@ -3081,7 +2482,6 @@ var template = {
                                                                                                         {
                                                                                                             "tagName": "h1",
                                                                                                             "type": "text",
-                                                                                                            "highlightable": false,
                                                                                                             "classes": [
                                                                                                                 "modal-title",
                                                                                                                 "fs-5"
@@ -3098,7 +2498,6 @@ var template = {
                                                                                                         },
                                                                                                         {
                                                                                                             "tagName": "button",
-                                                                                                            "highlightable": false,
                                                                                                             "classes": [
                                                                                                                 "btn-close"
                                                                                                             ],
@@ -3111,18 +2510,12 @@ var template = {
                                                                                                     ]
                                                                                                 },
                                                                                                 {
-                                                                                                    "droppable": false,
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "modal-body"
                                                                                                     ],
                                                                                                     "components": [
                                                                                                         {
                                                                                                             "type": "image",
-                                                                                                            "highlightable": false,
                                                                                                             "resizable": {
                                                                                                                 "ratioDefault": 1
                                                                                                             },
@@ -3151,29 +2544,30 @@ var template = {
                                     ]
                                 },
                                 {
-                                    "type": "padrinosWestern",
                                     "attributes": {
                                         "id": "i1q2xg"
+                                    }
+                                },
+                                {
+                                    "attributes": {
+                                        "id": "ia8dkk"
                                     },
                                     "components": [
                                         {
-                                            "tagName": "section",
-                                            "droppable": false,
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "hoverable": false,
-                                            "classes": [
-                                                "padrinos"
-                                            ],
+                                            "type": "padrinosWestern",
+                                            "attributes": {
+                                                "id": "ip55pn"
+                                            },
                                             "components": [
                                                 {
+                                                    "tagName": "section",
                                                     "droppable": false,
                                                     "highlightable": false,
                                                     "layerable": false,
                                                     "selectable": false,
                                                     "hoverable": false,
                                                     "classes": [
-                                                        "container"
+                                                        "padrinos"
                                                     ],
                                                     "components": [
                                                         {
@@ -3183,10 +2577,7 @@ var template = {
                                                             "selectable": false,
                                                             "hoverable": false,
                                                             "classes": [
-                                                                "row",
-                                                                "text-xs-center",
-                                                                "p-t-1",
-                                                                "p-b-4"
+                                                                "container"
                                                             ],
                                                             "components": [
                                                                 {
@@ -3196,32 +2587,12 @@ var template = {
                                                                     "selectable": false,
                                                                     "hoverable": false,
                                                                     "classes": [
-                                                                        "col-md-12",
-                                                                        "text-center"
+                                                                        "row",
+                                                                        "text-xs-center",
+                                                                        "p-t-1",
+                                                                        "p-b-4"
                                                                     ],
                                                                     "components": [
-                                                                        {
-                                                                            "tagName": "br",
-                                                                            "void": true
-                                                                        },
-                                                                        {
-                                                                            "tagName": "h3",
-                                                                            "type": "text",
-                                                                            "highlightable": false,
-                                                                            "classes": [
-                                                                                "titulopadrino"
-                                                                            ],
-                                                                            "components": [
-                                                                                {
-                                                                                    "type": "textnode",
-                                                                                    "content": "Padrinos"
-                                                                                }
-                                                                            ]
-                                                                        },
-                                                                        {
-                                                                            "tagName": "br",
-                                                                            "void": true
-                                                                        },
                                                                         {
                                                                             "droppable": false,
                                                                             "highlightable": false,
@@ -3229,9 +2600,32 @@ var template = {
                                                                             "selectable": false,
                                                                             "hoverable": false,
                                                                             "classes": [
-                                                                                "carousel-wrap"
+                                                                                "col-md-12",
+                                                                                "text-center"
                                                                             ],
                                                                             "components": [
+                                                                                {
+                                                                                    "tagName": "br",
+                                                                                    "void": true
+                                                                                },
+                                                                                {
+                                                                                    "tagName": "h3",
+                                                                                    "type": "text",
+                                                                                    "highlightable": false,
+                                                                                    "classes": [
+                                                                                        "titulopadrino"
+                                                                                    ],
+                                                                                    "components": [
+                                                                                        {
+                                                                                            "type": "textnode",
+                                                                                            "content": "Padrinos"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "tagName": "br",
+                                                                                    "void": true
+                                                                                },
                                                                                 {
                                                                                     "droppable": false,
                                                                                     "highlightable": false,
@@ -3239,9 +2633,7 @@ var template = {
                                                                                     "selectable": false,
                                                                                     "hoverable": false,
                                                                                     "classes": [
-                                                                                        "owl-carousel",
-                                                                                        "padrinos-owl",
-                                                                                        "owl-theme"
+                                                                                        "carousel-wrap"
                                                                                     ],
                                                                                     "components": [
                                                                                         {
@@ -3251,214 +2643,118 @@ var template = {
                                                                                             "selectable": false,
                                                                                             "hoverable": false,
                                                                                             "classes": [
-                                                                                                "item"
+                                                                                                "owl-carousel",
+                                                                                                "padrinos-owl",
+                                                                                                "owl-theme"
                                                                                             ],
                                                                                             "components": [
                                                                                                 {
-                                                                                                    "type": "image",
-                                                                                                    "resizable": {
-                                                                                                        "ratioDefault": 1
-                                                                                                    },
+                                                                                                    "droppable": false,
+                                                                                                    "highlightable": false,
+                                                                                                    "layerable": false,
+                                                                                                    "selectable": false,
+                                                                                                    "hoverable": false,
                                                                                                     "classes": [
-                                                                                                        "image-cover"
-                                                                                                    ],
-                                                                                                    "attributes": {
-                                                                                                        "src": "https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg",
-                                                                                                        "width": "150"
-                                                                                                    }
-                                                                                                },
-                                                                                                {
-                                                                                                    "tagName": "br",
-                                                                                                    "void": true
-                                                                                                },
-                                                                                                {
-                                                                                                    "tagName": "h5",
-                                                                                                    "type": "text",
-                                                                                                    "classes": [
-                                                                                                        "titulopadrinos"
+                                                                                                        "item-padrinos"
                                                                                                     ],
                                                                                                     "components": [
                                                                                                         {
-                                                                                                            "type": "textnode",
-                                                                                                            "content": "Hermano del Novio"
+                                                                                                            "type": "image",
+                                                                                                            "resizable": {
+                                                                                                                "ratioDefault": 1
+                                                                                                            },
+                                                                                                            "classes": [
+                                                                                                                "image-cover"
+                                                                                                            ],
+                                                                                                            "attributes": {
+                                                                                                                "src": "https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg",
+                                                                                                                "width": "150"
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "tagName": "br",
+                                                                                                            "void": true
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "tagName": "h5",
+                                                                                                            "type": "text",
+                                                                                                            "classes": [
+                                                                                                                "titulopadrinos"
+                                                                                                            ],
+                                                                                                            "components": [
+                                                                                                                {
+                                                                                                                    "type": "textnode",
+                                                                                                                    "content": "Hermano del Novio"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "tagName": "h2",
+                                                                                                            "type": "text",
+                                                                                                            "classes": [
+                                                                                                                "nombrepadrino"
+                                                                                                            ],
+                                                                                                            "components": [
+                                                                                                                {
+                                                                                                                    "type": "textnode",
+                                                                                                                    "content": "Juan Carlos"
+                                                                                                                }
+                                                                                                            ]
                                                                                                         }
                                                                                                     ]
                                                                                                 },
                                                                                                 {
-                                                                                                    "tagName": "h2",
-                                                                                                    "type": "text",
+                                                                                                    "droppable": false,
+                                                                                                    "highlightable": false,
+                                                                                                    "layerable": false,
+                                                                                                    "selectable": false,
+                                                                                                    "hoverable": false,
                                                                                                     "classes": [
-                                                                                                        "nombrepadrino"
+                                                                                                        "item-padrinos"
                                                                                                     ],
                                                                                                     "components": [
                                                                                                         {
-                                                                                                            "type": "textnode",
-                                                                                                            "content": "Juan Carlos"
-                                                                                                        }
-                                                                                                    ]
-                                                                                                }
-                                                                                            ]
-                                                                                        },
-                                                                                        {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
-                                                                                            "classes": [
-                                                                                                "item"
-                                                                                            ],
-                                                                                            "components": [
-                                                                                                {
-                                                                                                    "type": "image",
-                                                                                                    "resizable": {
-                                                                                                        "ratioDefault": 1
-                                                                                                    },
-                                                                                                    "classes": [
-                                                                                                        "image-cover"
-                                                                                                    ],
-                                                                                                    "attributes": {
-                                                                                                        "src": "https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg",
-                                                                                                        "width": "150"
-                                                                                                    }
-                                                                                                },
-                                                                                                {
-                                                                                                    "tagName": "br",
-                                                                                                    "void": true
-                                                                                                },
-                                                                                                {
-                                                                                                    "tagName": "h5",
-                                                                                                    "type": "text",
-                                                                                                    "classes": [
-                                                                                                        "titulopadrinos"
-                                                                                                    ],
-                                                                                                    "components": [
+                                                                                                            "type": "image",
+                                                                                                            "resizable": {
+                                                                                                                "ratioDefault": 1
+                                                                                                            },
+                                                                                                            "classes": [
+                                                                                                                "image-cover"
+                                                                                                            ],
+                                                                                                            "attributes": {
+                                                                                                                "src": "https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg",
+                                                                                                                "width": "150"
+                                                                                                            }
+                                                                                                        },
                                                                                                         {
-                                                                                                            "type": "textnode",
-                                                                                                            "content": "Hermano del Novio"
-                                                                                                        }
-                                                                                                    ]
-                                                                                                },
-                                                                                                {
-                                                                                                    "tagName": "h2",
-                                                                                                    "type": "text",
-                                                                                                    "classes": [
-                                                                                                        "nombrepadrino"
-                                                                                                    ],
-                                                                                                    "components": [
+                                                                                                            "tagName": "br",
+                                                                                                            "void": true
+                                                                                                        },
                                                                                                         {
-                                                                                                            "type": "textnode",
-                                                                                                            "content": "Juan Carlos"
-                                                                                                        }
-                                                                                                    ]
-                                                                                                }
-                                                                                            ]
-                                                                                        },
-                                                                                        {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
-                                                                                            "classes": [
-                                                                                                "item"
-                                                                                            ],
-                                                                                            "components": [
-                                                                                                {
-                                                                                                    "type": "image",
-                                                                                                    "resizable": {
-                                                                                                        "ratioDefault": 1
-                                                                                                    },
-                                                                                                    "classes": [
-                                                                                                        "image-cover"
-                                                                                                    ],
-                                                                                                    "attributes": {
-                                                                                                        "src": "https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg",
-                                                                                                        "width": "150"
-                                                                                                    }
-                                                                                                },
-                                                                                                {
-                                                                                                    "tagName": "br",
-                                                                                                    "void": true
-                                                                                                },
-                                                                                                {
-                                                                                                    "tagName": "h5",
-                                                                                                    "type": "text",
-                                                                                                    "classes": [
-                                                                                                        "titulopadrinos"
-                                                                                                    ],
-                                                                                                    "components": [
+                                                                                                            "tagName": "h5",
+                                                                                                            "type": "text",
+                                                                                                            "classes": [
+                                                                                                                "titulopadrinos"
+                                                                                                            ],
+                                                                                                            "components": [
+                                                                                                                {
+                                                                                                                    "type": "textnode",
+                                                                                                                    "content": "Hermano del Novio"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
                                                                                                         {
-                                                                                                            "type": "textnode",
-                                                                                                            "content": "Hermano del Novio"
-                                                                                                        }
-                                                                                                    ]
-                                                                                                },
-                                                                                                {
-                                                                                                    "tagName": "h2",
-                                                                                                    "type": "text",
-                                                                                                    "classes": [
-                                                                                                        "nombrepadrino"
-                                                                                                    ],
-                                                                                                    "components": [
-                                                                                                        {
-                                                                                                            "type": "textnode",
-                                                                                                            "content": "Juan Carlos"
-                                                                                                        }
-                                                                                                    ]
-                                                                                                }
-                                                                                            ]
-                                                                                        },
-                                                                                        {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
-                                                                                            "classes": [
-                                                                                                "item"
-                                                                                            ],
-                                                                                            "components": [
-                                                                                                {
-                                                                                                    "type": "image",
-                                                                                                    "resizable": {
-                                                                                                        "ratioDefault": 1
-                                                                                                    },
-                                                                                                    "classes": [
-                                                                                                        "image-cover"
-                                                                                                    ],
-                                                                                                    "attributes": {
-                                                                                                        "src": "https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg",
-                                                                                                        "width": "150"
-                                                                                                    }
-                                                                                                },
-                                                                                                {
-                                                                                                    "tagName": "br",
-                                                                                                    "void": true
-                                                                                                },
-                                                                                                {
-                                                                                                    "tagName": "h5",
-                                                                                                    "type": "text",
-                                                                                                    "classes": [
-                                                                                                        "titulopadrinos"
-                                                                                                    ],
-                                                                                                    "components": [
-                                                                                                        {
-                                                                                                            "type": "textnode",
-                                                                                                            "content": "Hermano del Novio"
-                                                                                                        }
-                                                                                                    ]
-                                                                                                },
-                                                                                                {
-                                                                                                    "tagName": "h2",
-                                                                                                    "type": "text",
-                                                                                                    "classes": [
-                                                                                                        "nombrepadrino"
-                                                                                                    ],
-                                                                                                    "components": [
-                                                                                                        {
-                                                                                                            "type": "textnode",
-                                                                                                            "content": "Juan Carlos"
+                                                                                                            "tagName": "h2",
+                                                                                                            "type": "text",
+                                                                                                            "classes": [
+                                                                                                                "nombrepadrino"
+                                                                                                            ],
+                                                                                                            "components": [
+                                                                                                                {
+                                                                                                                    "type": "textnode",
+                                                                                                                    "content": "Juan Carlos"
+                                                                                                                }
+                                                                                                            ]
                                                                                                         }
                                                                                                     ]
                                                                                                 }
@@ -3474,44 +2770,22 @@ var template = {
                                                         }
                                                     ]
                                                 }
-                                            ]
-                                        }
-                                    ],
-                                    "scriptUpdated": 1
-                                },
-                                {
-                                    "type": "Canciones",
-                                    "attributes": {
-                                        "id": "ia8dkk"
-                                    },
-                                    "components": [
+                                            ],
+                                            "scriptUpdated": 1,
+                                            "cantidadEvent": "2"
+                                        },
                                         {
                                             "tagName": "section",
-                                            "droppable": false,
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "selectable": false,
-                                            "hoverable": false,
                                             "classes": [
                                                 "canciones"
                                             ],
                                             "components": [
                                                 {
-                                                    "droppable": false,
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "classes": [
                                                         "container-fluid"
                                                     ],
                                                     "components": [
                                                         {
-                                                            "droppable": false,
-                                                            "highlightable": false,
-                                                            "layerable": false,
-                                                            "selectable": false,
-                                                            "hoverable": false,
                                                             "classes": [
                                                                 "row",
                                                                 "text-xs-center",
@@ -3520,21 +2794,11 @@ var template = {
                                                             ],
                                                             "components": [
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-2"
                                                                     ]
                                                                 },
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-sm-12",
                                                                         "col-md-8",
@@ -3548,8 +2812,6 @@ var template = {
                                                                         {
                                                                             "tagName": "h3",
                                                                             "type": "text",
-                                                                            "highlightable": false,
-                                                                            "layerable": false,
                                                                             "classes": [
                                                                                 "tituloCancion"
                                                                             ],
@@ -3567,8 +2829,6 @@ var template = {
                                                                         {
                                                                             "tagName": "span",
                                                                             "type": "text",
-                                                                            "highlightable": false,
-                                                                            "layerable": false,
                                                                             "classes": [
                                                                                 "textocanciones"
                                                                             ],
@@ -3585,7 +2845,6 @@ var template = {
                                                                         },
                                                                         {
                                                                             "type": "form",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "formCancionWestern"
                                                                             ],
@@ -3595,11 +2854,6 @@ var template = {
                                                                             },
                                                                             "components": [
                                                                                 {
-                                                                                    "droppable": false,
-                                                                                    "highlightable": false,
-                                                                                    "layerable": false,
-                                                                                    "selectable": false,
-                                                                                    "hoverable": false,
                                                                                     "classes": [
                                                                                         "row",
                                                                                         "mt-4",
@@ -3607,9 +2861,6 @@ var template = {
                                                                                     ],
                                                                                     "components": [
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
                                                                                             "classes": [
                                                                                                 "col-sm-12",
                                                                                                 "col-md-4",
@@ -3621,8 +2872,6 @@ var template = {
                                                                                             "components": [
                                                                                                 {
                                                                                                     "type": "label",
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
                                                                                                     "classes": [
                                                                                                         "labelform",
                                                                                                         "p-1"
@@ -3639,7 +2888,6 @@ var template = {
                                                                                                 },
                                                                                                 {
                                                                                                     "type": "input",
-                                                                                                    "layerable": false,
                                                                                                     "void": true,
                                                                                                     "classes": [
                                                                                                         "form-control",
@@ -3654,9 +2902,6 @@ var template = {
                                                                                             ]
                                                                                         },
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
                                                                                             "classes": [
                                                                                                 "col-sm-12",
                                                                                                 "col-md-4",
@@ -3668,8 +2913,6 @@ var template = {
                                                                                             "components": [
                                                                                                 {
                                                                                                     "type": "label",
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
                                                                                                     "classes": [
                                                                                                         "labelform",
                                                                                                         "p-1"
@@ -3686,7 +2929,6 @@ var template = {
                                                                                                 },
                                                                                                 {
                                                                                                     "type": "input",
-                                                                                                    "layerable": false,
                                                                                                     "void": true,
                                                                                                     "classes": [
                                                                                                         "form-control",
@@ -3701,9 +2943,6 @@ var template = {
                                                                                             ]
                                                                                         },
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
                                                                                             "classes": [
                                                                                                 "col-sm-12",
                                                                                                 "col-md-4",
@@ -3715,8 +2954,6 @@ var template = {
                                                                                             "components": [
                                                                                                 {
                                                                                                     "type": "label",
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
                                                                                                     "classes": [
                                                                                                         "labelform",
                                                                                                         "p-1"
@@ -3733,7 +2970,6 @@ var template = {
                                                                                                 },
                                                                                                 {
                                                                                                     "type": "input",
-                                                                                                    "layerable": false,
                                                                                                     "void": true,
                                                                                                     "classes": [
                                                                                                         "form-control",
@@ -3748,11 +2984,6 @@ var template = {
                                                                                             ]
                                                                                         },
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "col-12",
                                                                                                 "mt-5"
@@ -3761,8 +2992,6 @@ var template = {
                                                                                                 {
                                                                                                     "tagName": "button",
                                                                                                     "type": "text",
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
                                                                                                     "classes": [
                                                                                                         "botonhashtag"
                                                                                                     ],
@@ -3785,11 +3014,6 @@ var template = {
                                                                     ]
                                                                 },
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-2"
                                                                     ]
@@ -3803,76 +3027,44 @@ var template = {
                                     ]
                                 },
                                 {
-                                    "type": "contador",
                                     "attributes": {
                                         "id": "ipdd2s"
                                     },
                                     "components": [
                                         {
-                                            "droppable": false,
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "selectable": false,
-                                            "hoverable": false,
                                             "classes": [
                                                 "contador"
                                             ],
                                             "components": [
                                                 {
-                                                    "droppable": false,
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "classes": [
                                                         "container-fluid",
                                                         "p-0"
                                                     ],
                                                     "components": [
                                                         {
-                                                            "droppable": false,
-                                                            "highlightable": false,
-                                                            "layerable": false,
-                                                            "selectable": false,
-                                                            "hoverable": false,
                                                             "classes": [
                                                                 "row"
                                                             ],
                                                             "components": [
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-12",
                                                                         "text-center"
                                                                     ],
                                                                     "components": [
                                                                         {
-                                                                            "droppable": false,
-                                                                            "highlightable": false,
-                                                                            "layerable": false,
-                                                                            "selectable": false,
-                                                                            "hoverable": false,
                                                                             "classes": [
                                                                                 "divcontador"
                                                                             ],
                                                                             "components": [
                                                                                 {
-                                                                                    "type": "countdown",
                                                                                     "attributes": {
                                                                                         "id": "ir922l"
                                                                                     },
                                                                                     "components": [
                                                                                         {
                                                                                             "tagName": "span",
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "countdown-cont"
                                                                                             ],
@@ -3881,21 +3073,11 @@ var template = {
                                                                                             },
                                                                                             "components": [
                                                                                                 {
-                                                                                                    "droppable": false,
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "countdown-block"
                                                                                                     ],
                                                                                                     "components": [
                                                                                                         {
-                                                                                                            "droppable": false,
-                                                                                                            "highlightable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "countdown-digit"
                                                                                                             ],
@@ -3905,11 +3087,6 @@ var template = {
                                                                                                         },
                                                                                                         {
                                                                                                             "type": "text",
-                                                                                                            "highlightable": false,
-                                                                                                            "editable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "countdown-label"
                                                                                                             ],
@@ -3923,21 +3100,11 @@ var template = {
                                                                                                     ]
                                                                                                 },
                                                                                                 {
-                                                                                                    "droppable": false,
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "countdown-block"
                                                                                                     ],
                                                                                                     "components": [
                                                                                                         {
-                                                                                                            "droppable": false,
-                                                                                                            "highlightable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "countdown-digit"
                                                                                                             ],
@@ -3947,11 +3114,6 @@ var template = {
                                                                                                         },
                                                                                                         {
                                                                                                             "type": "text",
-                                                                                                            "highlightable": false,
-                                                                                                            "editable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "countdown-label"
                                                                                                             ],
@@ -3965,21 +3127,11 @@ var template = {
                                                                                                     ]
                                                                                                 },
                                                                                                 {
-                                                                                                    "droppable": false,
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "countdown-block"
                                                                                                     ],
                                                                                                     "components": [
                                                                                                         {
-                                                                                                            "droppable": false,
-                                                                                                            "highlightable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "countdown-digit"
                                                                                                             ],
@@ -3989,11 +3141,6 @@ var template = {
                                                                                                         },
                                                                                                         {
                                                                                                             "type": "text",
-                                                                                                            "highlightable": false,
-                                                                                                            "editable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "countdown-label"
                                                                                                             ],
@@ -4007,21 +3154,11 @@ var template = {
                                                                                                     ]
                                                                                                 },
                                                                                                 {
-                                                                                                    "droppable": false,
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "countdown-block"
                                                                                                     ],
                                                                                                     "components": [
                                                                                                         {
-                                                                                                            "droppable": false,
-                                                                                                            "highlightable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "countdown-digit"
                                                                                                             ],
@@ -4031,11 +3168,6 @@ var template = {
                                                                                                         },
                                                                                                         {
                                                                                                             "type": "text",
-                                                                                                            "highlightable": false,
-                                                                                                            "editable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "countdown-label"
                                                                                                             ],
@@ -4059,8 +3191,7 @@ var template = {
                                                                                                 "data-js": "countdown-endtext"
                                                                                             }
                                                                                         }
-                                                                                    ],
-                                                                                    "scriptUpdated": 1
+                                                                                    ]
                                                                                 }
                                                                             ]
                                                                         }
@@ -4075,38 +3206,22 @@ var template = {
                                     ]
                                 },
                                 {
-                                    "type": "regalos",
                                     "attributes": {
                                         "id": "i5bh45"
                                     },
                                     "components": [
                                         {
                                             "tagName": "section",
-                                            "droppable": false,
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "selectable": false,
-                                            "hoverable": false,
                                             "attributes": {
                                                 "id": "regalos"
                                             },
                                             "components": [
                                                 {
-                                                    "droppable": false,
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "classes": [
                                                         "container"
                                                     ],
                                                     "components": [
                                                         {
-                                                            "droppable": false,
-                                                            "highlightable": false,
-                                                            "layerable": false,
-                                                            "selectable": false,
-                                                            "hoverable": false,
                                                             "classes": [
                                                                 "row",
                                                                 "text-xs-center",
@@ -4115,11 +3230,6 @@ var template = {
                                                             ],
                                                             "components": [
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-md-12",
                                                                         "text-center"
@@ -4132,7 +3242,6 @@ var template = {
                                                                         {
                                                                             "tagName": "h3",
                                                                             "type": "text",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "tituloregalo"
                                                                             ],
@@ -4148,11 +3257,6 @@ var template = {
                                                                             "void": true
                                                                         },
                                                                         {
-                                                                            "droppable": false,
-                                                                            "highlightable": false,
-                                                                            "layerable": false,
-                                                                            "selectable": false,
-                                                                            "hoverable": false,
                                                                             "classes": [
                                                                                 "divtexto"
                                                                             ],
@@ -4160,7 +3264,6 @@ var template = {
                                                                                 {
                                                                                     "tagName": "span",
                                                                                     "type": "text",
-                                                                                    "highlightable": false,
                                                                                     "classes": [
                                                                                         "textoregalo",
                                                                                         "text-light"
@@ -4179,11 +3282,6 @@ var template = {
                                                                             "void": true
                                                                         },
                                                                         {
-                                                                            "droppable": false,
-                                                                            "highlightable": false,
-                                                                            "layerable": false,
-                                                                            "selectable": false,
-                                                                            "hoverable": false,
                                                                             "classes": [
                                                                                 "switcher",
                                                                                 "mt-5",
@@ -4207,7 +3305,6 @@ var template = {
                                                                                 },
                                                                                 {
                                                                                     "type": "label",
-                                                                                    "highlightable": false,
                                                                                     "classes": [
                                                                                         "switcher__label",
                                                                                         "yin"
@@ -4238,7 +3335,6 @@ var template = {
                                                                                 },
                                                                                 {
                                                                                     "type": "label",
-                                                                                    "highlightable": false,
                                                                                     "classes": [
                                                                                         "switcher__label",
                                                                                         "yang"
@@ -4255,7 +3351,6 @@ var template = {
                                                                                 },
                                                                                 {
                                                                                     "tagName": "span",
-                                                                                    "highlightable": false,
                                                                                     "classes": [
                                                                                         "switcher__toggle"
                                                                                     ]
@@ -4269,7 +3364,6 @@ var template = {
                                                                         {
                                                                             "tagName": "span",
                                                                             "type": "text",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "datosbancarios",
                                                                                 "pb-4"
@@ -4286,17 +3380,11 @@ var template = {
                                                                             "void": true
                                                                         },
                                                                         {
-                                                                            "type": "listaregalos",
                                                                             "attributes": {
                                                                                 "id": "i4c20x"
                                                                             },
                                                                             "components": [
                                                                                 {
-                                                                                    "droppable": false,
-                                                                                    "highlightable": false,
-                                                                                    "layerable": false,
-                                                                                    "selectable": false,
-                                                                                    "hoverable": false,
                                                                                     "classes": [
                                                                                         "carousel-wrap",
                                                                                         "re",
@@ -4308,22 +3396,12 @@ var template = {
                                                                                     },
                                                                                     "components": [
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "owl-carousel",
                                                                                                 "regalos"
                                                                                             ],
                                                                                             "components": [
                                                                                                 {
-                                                                                                    "droppable": false,
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "card",
                                                                                                         "p-4"
@@ -4343,11 +3421,6 @@ var template = {
                                                                                                             }
                                                                                                         },
                                                                                                         {
-                                                                                                            "droppable": false,
-                                                                                                            "highlightable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "card-body"
                                                                                                             ],
@@ -4416,11 +3489,6 @@ var template = {
                                                                                                     ]
                                                                                                 },
                                                                                                 {
-                                                                                                    "droppable": false,
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "card",
                                                                                                         "p-4"
@@ -4440,11 +3508,6 @@ var template = {
                                                                                                             }
                                                                                                         },
                                                                                                         {
-                                                                                                            "droppable": false,
-                                                                                                            "highlightable": false,
-                                                                                                            "layerable": false,
-                                                                                                            "selectable": false,
-                                                                                                            "hoverable": false,
                                                                                                             "classes": [
                                                                                                                 "card-body"
                                                                                                             ],
@@ -4516,8 +3579,7 @@ var template = {
                                                                                         }
                                                                                     ]
                                                                                 }
-                                                                            ],
-                                                                            "scriptUpdated": 1
+                                                                            ]
                                                                         }
                                                                     ]
                                                                 }
@@ -4530,46 +3592,26 @@ var template = {
                                     ]
                                 },
                                 {
-                                    "type": "mensaje",
                                     "attributes": {
                                         "id": "iu8309"
                                     },
                                     "components": [
                                         {
-                                            "droppable": false,
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "hoverable": false,
                                             "attributes": {
                                                 "id": "main-bg"
                                             },
                                             "components": [
                                                 {
-                                                    "droppable": false,
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "classes": [
                                                         "container"
                                                     ],
                                                     "components": [
                                                         {
-                                                            "droppable": false,
-                                                            "highlightable": false,
-                                                            "layerable": false,
-                                                            "selectable": false,
-                                                            "hoverable": false,
                                                             "classes": [
                                                                 "row"
                                                             ],
                                                             "components": [
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-12",
                                                                         "text-center",
@@ -4577,11 +3619,6 @@ var template = {
                                                                     ],
                                                                     "components": [
                                                                         {
-                                                                            "droppable": false,
-                                                                            "highlightable": false,
-                                                                            "layerable": false,
-                                                                            "selectable": false,
-                                                                            "hoverable": false,
                                                                             "classes": [
                                                                                 "divdedicatoria"
                                                                             ],
@@ -4589,7 +3626,6 @@ var template = {
                                                                                 {
                                                                                     "tagName": "h4",
                                                                                     "type": "text",
-                                                                                    "highlightable": false,
                                                                                     "classes": [
                                                                                         "textodedicatoria"
                                                                                     ],
@@ -4613,37 +3649,22 @@ var template = {
                                     ]
                                 },
                                 {
-                                    "type": "recomendacion",
                                     "attributes": {
                                         "id": "i4z6ds"
                                     },
                                     "components": [
                                         {
                                             "tagName": "section",
-                                            "droppable": false,
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "hoverable": false,
                                             "attributes": {
                                                 "id": "recomendaciones"
                                             },
                                             "components": [
                                                 {
-                                                    "droppable": false,
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "classes": [
                                                         "container"
                                                     ],
                                                     "components": [
                                                         {
-                                                            "droppable": false,
-                                                            "highlightable": false,
-                                                            "layerable": false,
-                                                            "selectable": false,
-                                                            "hoverable": false,
                                                             "classes": [
                                                                 "row",
                                                                 "text-xs-center",
@@ -4652,11 +3673,6 @@ var template = {
                                                             ],
                                                             "components": [
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-md-12",
                                                                         "text-center"
@@ -4669,7 +3685,6 @@ var template = {
                                                                         {
                                                                             "tagName": "h3",
                                                                             "type": "text",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "titulorecomendacion",
                                                                                 "text-light"
@@ -4832,10 +3847,6 @@ var template = {
                                                                                                                                     ]
                                                                                                                                 },
                                                                                                                                 {
-                                                                                                                                    "droppable": false,
-                                                                                                                                    "highlightable": false,
-                                                                                                                                    "layerable": false,
-                                                                                                                                    "hoverable": false,
                                                                                                                                     "classes": [
                                                                                                                                         "pb-3"
                                                                                                                                     ],
@@ -5006,10 +4017,6 @@ var template = {
                                                                                                                                     ]
                                                                                                                                 },
                                                                                                                                 {
-                                                                                                                                    "droppable": false,
-                                                                                                                                    "highlightable": false,
-                                                                                                                                    "layerable": false,
-                                                                                                                                    "hoverable": false,
                                                                                                                                     "classes": [
                                                                                                                                         "pb-3"
                                                                                                                                     ],
@@ -5055,38 +4062,22 @@ var template = {
                                     ]
                                 },
                                 {
-                                    "type": "Transporte",
                                     "attributes": {
                                         "id": "if89qu"
                                     },
                                     "components": [
                                         {
                                             "tagName": "section",
-                                            "droppable": false,
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "selectable": false,
-                                            "hoverable": false,
                                             "attributes": {
                                                 "id": "canciones"
                                             },
                                             "components": [
                                                 {
-                                                    "droppable": false,
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "classes": [
                                                         "container-fluid"
                                                     ],
                                                     "components": [
                                                         {
-                                                            "droppable": false,
-                                                            "highlightable": false,
-                                                            "layerable": false,
-                                                            "selectable": false,
-                                                            "hoverable": false,
                                                             "classes": [
                                                                 "row",
                                                                 "text-xs-center",
@@ -5095,21 +4086,11 @@ var template = {
                                                             ],
                                                             "components": [
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-2"
                                                                     ]
                                                                 },
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-sm-12",
                                                                         "col-md-8",
@@ -5123,7 +4104,6 @@ var template = {
                                                                         {
                                                                             "tagName": "h3",
                                                                             "type": "text",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "tituloCancion"
                                                                             ],
@@ -5141,7 +4121,6 @@ var template = {
                                                                         {
                                                                             "tagName": "span",
                                                                             "type": "text",
-                                                                            "highlightable": false,
                                                                             "classes": [
                                                                                 "textocanciones"
                                                                             ],
@@ -5157,18 +4136,12 @@ var template = {
                                                                             "void": true
                                                                         },
                                                                         {
-                                                                            "droppable": false,
-                                                                            "highlightable": false,
-                                                                            "layerable": false,
-                                                                            "selectable": false,
-                                                                            "hoverable": false,
                                                                             "classes": [
                                                                                 "divtransporte"
                                                                             ],
                                                                             "components": [
                                                                                 {
                                                                                     "type": "form",
-                                                                                    "highlightable": false,
                                                                                     "classes": [
                                                                                         "form_transporte"
                                                                                     ],
@@ -5178,11 +4151,6 @@ var template = {
                                                                                     },
                                                                                     "components": [
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "form-group",
                                                                                                 "text-left"
@@ -5190,7 +4158,6 @@ var template = {
                                                                                             "components": [
                                                                                                 {
                                                                                                     "type": "label",
-                                                                                                    "highlightable": false,
                                                                                                     "classes": [
                                                                                                         "labelform"
                                                                                                     ],
@@ -5219,11 +4186,6 @@ var template = {
                                                                                             ]
                                                                                         },
                                                                                         {
-                                                                                            "droppable": false,
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "form-group",
                                                                                                 "text-left"
@@ -5231,7 +4193,6 @@ var template = {
                                                                                             "components": [
                                                                                                 {
                                                                                                     "type": "label",
-                                                                                                    "highlightable": false,
                                                                                                     "classes": [
                                                                                                         "labelform"
                                                                                                     ],
@@ -5281,11 +4242,6 @@ var template = {
                                                                     ]
                                                                 },
                                                                 {
-                                                                    "droppable": false,
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-2"
                                                                     ]
@@ -5299,43 +4255,27 @@ var template = {
                                     ]
                                 },
                                 {
-                                    "type": "confirmacion",
                                     "attributes": {
                                         "id": "id85hu"
                                     },
                                     "components": [
                                         {
                                             "tagName": "section",
-                                            "highlightable": false,
-                                            "layerable": false,
-                                            "hoverable": false,
                                             "attributes": {
                                                 "id": "confirmacion"
                                             },
                                             "components": [
                                                 {
-                                                    "highlightable": false,
-                                                    "layerable": false,
-                                                    "selectable": false,
-                                                    "hoverable": false,
                                                     "classes": [
                                                         "container-fuild"
                                                     ],
                                                     "components": [
                                                         {
-                                                            "highlightable": false,
-                                                            "layerable": false,
-                                                            "selectable": false,
-                                                            "hoverable": false,
                                                             "classes": [
                                                                 "row"
                                                             ],
                                                             "components": [
                                                                 {
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-sm-12",
                                                                         "col-md-6",
@@ -5344,10 +4284,6 @@ var template = {
                                                                     ],
                                                                     "components": [
                                                                         {
-                                                                            "highlightable": false,
-                                                                            "layerable": false,
-                                                                            "selectable": false,
-                                                                            "hoverable": false,
                                                                             "classes": [
                                                                                 "divconfirmacion",
                                                                                 "text-sm-center",
@@ -5357,7 +4293,6 @@ var template = {
                                                                                 {
                                                                                     "tagName": "h1",
                                                                                     "type": "text",
-                                                                                    "highlightable": false,
                                                                                     "classes": [
                                                                                         "tituloconfirmacion"
                                                                                     ],
@@ -5371,7 +4306,6 @@ var template = {
                                                                                 {
                                                                                     "tagName": "p",
                                                                                     "type": "text",
-                                                                                    "highlightable": false,
                                                                                     "classes": [
                                                                                         "textoconfirmacion"
                                                                                     ],
@@ -5387,10 +4321,6 @@ var template = {
                                                                     ]
                                                                 },
                                                                 {
-                                                                    "highlightable": false,
-                                                                    "layerable": false,
-                                                                    "selectable": false,
-                                                                    "hoverable": false,
                                                                     "classes": [
                                                                         "col-sm-12",
                                                                         "col-md-6",
@@ -5399,17 +4329,12 @@ var template = {
                                                                     ],
                                                                     "components": [
                                                                         {
-                                                                            "highlightable": false,
-                                                                            "layerable": false,
-                                                                            "selectable": false,
-                                                                            "hoverable": false,
                                                                             "classes": [
                                                                                 "divformconfirmacion"
                                                                             ],
                                                                             "components": [
                                                                                 {
                                                                                     "type": "form",
-                                                                                    "highlightable": false,
                                                                                     "classes": [
                                                                                         "form_confirmados"
                                                                                     ],
@@ -5419,20 +4344,12 @@ var template = {
                                                                                     },
                                                                                     "components": [
                                                                                         {
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "form-group",
                                                                                                 "text-left"
                                                                                             ],
                                                                                             "components": [
                                                                                                 {
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "form-check",
                                                                                                         "form-check-inline"
@@ -5453,7 +4370,6 @@ var template = {
                                                                                                         },
                                                                                                         {
                                                                                                             "type": "label",
-                                                                                                            "highlightable": false,
                                                                                                             "classes": [
                                                                                                                 "form-check-label"
                                                                                                             ],
@@ -5470,10 +4386,6 @@ var template = {
                                                                                                     ]
                                                                                                 },
                                                                                                 {
-                                                                                                    "highlightable": false,
-                                                                                                    "layerable": false,
-                                                                                                    "selectable": false,
-                                                                                                    "hoverable": false,
                                                                                                     "classes": [
                                                                                                         "form-check",
                                                                                                         "form-check-inline"
@@ -5494,7 +4406,6 @@ var template = {
                                                                                                         },
                                                                                                         {
                                                                                                             "type": "label",
-                                                                                                            "highlightable": false,
                                                                                                             "classes": [
                                                                                                                 "form-check-label"
                                                                                                             ],
@@ -5513,10 +4424,6 @@ var template = {
                                                                                             ]
                                                                                         },
                                                                                         {
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "form-group",
                                                                                                 "text-left"
@@ -5538,10 +4445,6 @@ var template = {
                                                                                             ]
                                                                                         },
                                                                                         {
-                                                                                            "highlightable": false,
-                                                                                            "layerable": false,
-                                                                                            "selectable": false,
-                                                                                            "hoverable": false,
                                                                                             "classes": [
                                                                                                 "form-group",
                                                                                                 "text-left"
@@ -5595,12 +4498,21 @@ var template = {
                                             ]
                                         }
                                     ]
+                                },
+                                {
+                                    "type": "script",
+                                    "components": [
+                                        {
+                                            "type": "textnode",
+                                            "content": "var items = document.querySelectorAll('#ify5li');\n          for (var i = 0, len = items.length; i < len; i++) {\n            (function(){\nconst owl = $('.galeria').owlCarousel({\n              loop: false,\n              margin: 10,\n              nav: true,\n              navText: [\n                '<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>',\n                '<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>'\n              ],\n              autoplay: true,\n              autoplayHoverPause: true,\n              responsive: {\n                0: {\n                  items: 1\n                },\n                600: {\n                  items: 3\n                },\n                1000: {\n                  items: 3\n                }\n              }\n            });\n}.bind(items[i]))();\n          }\n          var items = document.querySelectorAll('#iyimm');\n          for (var i = 0, len = items.length; i < len; i++) {\n            (function(){\nconst cantidadEvent = \"\";\n  \n          $('.eventos_owl').owlCarousel({\n            loop: false,\n            margin: 10,\n            nav: true,\n            navText: [\n              '<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>',\n              '<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>'\n            ],\n            autoplay: true,\n            autoplayHoverPause: true,\n            responsive: {\n              0: {\n                items: 1\n              },\n              600: {\n                items: 3\n              },\n              1000: {\n                items: 3\n              }\n            }\n          })\n}.bind(items[i]))();\n          }\n          var items = document.querySelectorAll('#i1q2xg');\n          for (var i = 0, len = items.length; i < len; i++) {\n            (function(){\nconst cantidadEvent = \"2\";\n  \n          $('.padrinos-owl').owlCarousel({\n            loop: false,\n            margin: 1,\n            nav: true,\n            navText: [\n              '<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>',\n              '<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>'\n            ],\n            autoplay: false,\n            autoplayHoverPause: true,\n            responsive: {\n              0: {\n                items: 1\n              },\n              600: {\n                items: 3\n              },\n              1000: {\n                items: 3\n              }\n            }\n          })\n}.bind(items[i]))();\n          }\n          var props = {\"ia8dkk\":{\"myprop1\":\"10\",\"myprop2\":\"xVXJt4iAnEnHAF6quY3okNhjWtCzofifTDZI6N9m\"}};\n          var ids = Object.keys(props).map(function(id) { return '#'+id }).join(',');\n          var els = document.querySelectorAll(ids);\n          for (var i = 0, len = els.length; i < len; i++) {\n            var el = els[i];\n            (function(props) {\n\n    console.log(props.myprop1);\n    console.log(props.myprop2);\n\n      // Seleccionar el formulario y agregar el controlador de eventos \"submit\"\n      $('.formCancionWestern').submit(function(event) {\n        // Prevenir el comportamiento predeterminado del formulario\n        event.preventDefault();\n    \n        // Obtener los datos del formulario\n        var formData = $(this).serialize();\n\n        console.log(formData);\n\n        formData += '&card_id=' + props.myprop1;\n        formData += '&_token=' + props.myprop2;\n    \n        // Enviar los datos al servidor mediante una solicitud AJAX\n        $.post('/canciones', formData, function(response) {\n          // Manejar la respuesta del servidor aquí\n          console.log(response);\n          if(response.status == 'success'){\n\n            console.log('entro');\n\n            alert('Cancion enviada correctamente');\n\n            document.getElementsByClassName('form-control').value = '';\n          }\n        });\n      });\n  }.bind(el))(props[el.id]);\n          }\n          var items = document.querySelectorAll('#ir922l');\n          for (var i = 0, len = items.length; i < len; i++) {\n            (function(){\nvar startfrom = '';\n          var endTxt = 'EXPIRED';\n          var countDownDate = new Date(startfrom).getTime();\n          var countdownEl = this.querySelector('[data-js=countdown]');\n          var endTextEl = this.querySelector('[data-js=countdown-endtext]');\n          var dayEl = this.querySelector('[data-js=countdown-day]');\n          var hourEl = this.querySelector('[data-js=countdown-hour]');\n          var minuteEl = this.querySelector('[data-js=countdown-minute]');\n          var secondEl = this.querySelector('[data-js=countdown-second]');\n          var oldInterval = this.gjs_countdown_interval;\n          if(oldInterval) {\n            oldInterval && clearInterval(oldInterval);\n          }\n  \n          var setTimer = function (days, hours, minutes, seconds) {\n            dayEl.innerHTML = days < 10 ? '0' + days : days;\n            hourEl.innerHTML = hours < 10 ? '0' + hours : hours;\n            minuteEl.innerHTML = minutes < 10 ? '0' + minutes : minutes;\n            secondEl.innerHTML = seconds < 10 ? '0' + seconds : seconds ;\n          }\n  \n          var moveTimer = function() {\n            var now = new Date().getTime();\n            var distance = countDownDate - now;\n            var days = Math.floor(distance / 86400000);\n            var hours = Math.floor((distance % 86400000) / 3600000);\n            var minutes = Math.floor((distance % 3600000) / 60000);\n            var seconds = Math.floor((distance % 60000) / 1000);\n  \n            setTimer(days, hours, minutes, seconds);\n  \n            /* If the count down is finished, write some text */\n            if (distance < 0) {\n              clearInterval(interval);\n              endTextEl.innerHTML = endTxt;\n              countdownEl.style.display = 'none';\n              endTextEl.style.display = '';\n            }\n          };\n  \n          if (countDownDate) {\n            var interval = setInterval(moveTimer, 1000);\n            this.gjs_countdown_interval = interval;\n            endTextEl.style.display = 'none';\n            countdownEl.style.display = '';\n            moveTimer();\n          } else {\n            setTimer(0, 0, 0, 0);\n          }\n}.bind(items[i]))();\n          }\n          var items = document.querySelectorAll('#i5bh45');\n          for (var i = 0, len = items.length; i < len; i++) {\n            (function(){\n$(document).ready(function() {\n  \n      $('.yang').click(function() {\n  \n        $(\"#yang\").prop(\"checked\", true);\n        $(\"#yin\").prop(\"checked\", false);\n       \n        $('.contenregalo').show();           \n          \n        $('.datosbancarios').hide(); \n          \n      });\n    \n      $('.yin').click(function() {\n  \n        $(\"#yang\").prop(\"checked\", false);\n        $(\"#yin\").prop(\"checked\", true);\n            \n        $('.contenregalo').hide();           \n          \n        $('.datosbancarios').show(); \n          \n      });\n    });\n}.bind(items[i]))();\n          }\n          var items = document.querySelectorAll('#i4c20x');\n          for (var i = 0, len = items.length; i < len; i++) {\n            (function(){\nconst cantidadEvent = \"\";\n  \n          $('.regalos').owlCarousel({\n            loop: false,\n            margin: 10,\n            nav: true,\n            navText: [\n              '<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>',\n              '<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>'\n            ],\n            autoplay: false,\n            autoplayHoverPause: true,\n            responsive: {\n              0: {\n                items: 1\n              },\n              600: {\n                items: 3\n              },\n              1000: {\n                items: 3\n              }\n            }\n          })\n}.bind(items[i]))();\n          }\n          var props = {\"if89qu\":{\"myprop1\":\"10\",\"myprop2\":\"xVXJt4iAnEnHAF6quY3okNhjWtCzofifTDZI6N9m\"}};\n          var ids = Object.keys(props).map(function(id) { return '#'+id }).join(',');\n          var els = document.querySelectorAll(ids);\n          for (var i = 0, len = els.length; i < len; i++) {\n            var el = els[i];\n            (function(props) {\n\n    console.log(props.myprop1);\n    console.log(props.myprop2);\n\n      // Seleccionar el formulario y agregar el controlador de eventos \"submit\"\n      $('.form_transporte').submit(function(event) {\n        // Prevenir el comportamiento predeterminado del formulario\n        event.preventDefault();\n    \n        // Obtener los datos del formulario\n        var formData = $(this).serialize();\n\n        console.log(formData);\n\n        formData += '&card_id=' + props.myprop1;\n        formData += '&_token=' + props.myprop2;\n    \n        // Enviar los datos al servidor mediante una solicitud AJAX\n        $.post('/transporte', formData, function(response) {\n          // Manejar la respuesta del servidor aquí\n          console.log(response);\n        });\n      });\n  \n    \n  }.bind(el))(props[el.id]);\n          }\n          var props = {\"id85hu\":{\"myprop1\":\"10\",\"myprop2\":\"xVXJt4iAnEnHAF6quY3okNhjWtCzofifTDZI6N9m\"}};\n          var ids = Object.keys(props).map(function(id) { return '#'+id }).join(',');\n          var els = document.querySelectorAll(ids);\n          for (var i = 0, len = els.length; i < len; i++) {\n            var el = els[i];\n            (function(props) {\n\n    console.log(props.myprop1);\n    console.log(props.myprop2);\n\n      // Seleccionar el formulario y agregar el controlador de eventos \"submit\"\n      $('.form_confirmados').submit(function(event) {\n        // Prevenir el comportamiento predeterminado del formulario\n        event.preventDefault();\n    \n        // Obtener los datos del formulario\n        var formData = $(this).serialize();\n\n        console.log(formData);\n\n        formData += '&card_id=' + props.myprop1;\n        formData += '&_token=' + props.myprop2;\n    \n        // Enviar los datos al servidor mediante una solicitud AJAX\n        $.post('/confirmados', formData, function(response) {\n          // Manejar la respuesta del servidor aquí\n          console.log(response);\n          if(response.status == 'success'){\n\n            console.log('entro');\n\n            alert('Confirmados enviado correctamente');\n\n            document.getElementsByClassName('form-control').value = '';\n          }\n        });\n      });\n  }.bind(el))(props[el.id]);\n          }"
+                                        }
+                                    ]
                                 }
                             ]
                         }
                     }
                 ],
-                "id": "v8MG69yrEbTX1Lxq"
+                "id": "3yYGSKfeHtFaeuSU"
             }
         ]
     },
@@ -5609,7 +4521,7 @@ var template = {
         "assets": [
             {
                 "type": "image",
-                "src": "https://invitaciondigital.store/grapesjs/img/MODELO-BODA-1-1.jpg",
+                "src": "http://localhost:8000/grapesjs/img/MODELO-BODA-1-1.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -5667,7 +4579,7 @@ var template = {
                     "#i9bi"
                 ],
                 "style": {
-                    "background-image": "url(\"https://invitaciondigital.store/grapesjs/img/MODELO-BODA-1-1.jpg\")",
+                    "background-image": "url(\"http://localhost:8000/grapesjs/img/MODELO-BODA-1-1.jpg\")",
                     "background-size": "cover",
                     "background-position": "center center",
                     "background-repeat": "no-repeat",
@@ -6132,7 +5044,7 @@ var template = {
                     "padding-right": "0px",
                     "padding-bottom": "40px",
                     "padding-left": "0px",
-                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/MODELO-BODA-1-1.jpg')",
+                    "background-image": "url('http://localhost:8000/grapesjs/img/MODELO-BODA-1-1.jpg')",
                     "background-position-x": "center",
                     "background-position-y": "center",
                     "background-size": "cover",
@@ -6568,7 +5480,7 @@ var template = {
                 "style": {
                     "width": "100%",
                     "height": "200px",
-                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/MODELO-BODA-1-1.jpg')",
+                    "background-image": "url('http://localhost:8000/grapesjs/img/MODELO-BODA-1-1.jpg')",
                     "background-position-x": "center",
                     "background-position-y": "center",
                     "background-size": "cover",
@@ -7951,7 +6863,7 @@ var template = {
                                             ]
                                         }
                                     ],
-                                    "src": "https://invitaciondigital.store/grapesjs/img/MODELO-BODA-1-1.jpg"
+                                    "src": "http://localhost:8000/grapesjs/img/MODELO-BODA-1-1.jpg"
                                 },
                                 {
                                     "type": "historiaboho",
@@ -11541,7 +10453,7 @@ var template = {
         "assets": [
             {
                 "type": "image",
-                "src": "https://invitaciondigital.store/grapesjs/img/flor1-izquierda.png",
+                "src": "http://localhost:8000/grapesjs/img/flor1-izquierda.png",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -11549,7 +10461,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "https://invitaciondigital.store/grapesjs/img/flor1-derecha.png",
+                "src": "http://localhost:8000/grapesjs/img/flor1-derecha.png",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -11557,7 +10469,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "https://invitaciondigital.store/grapesjs/img/romantic-3.jpg",
+                "src": "http://localhost:8000/grapesjs/img/romantic-3.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -11565,7 +10477,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg",
+                "src": "http://localhost:8000/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -11590,7 +10502,7 @@ var template = {
                     "padding-right": "4%",
                     "padding-bottom": "4%",
                     "padding-left": "4%",
-                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/romantic-3.jpg')",
+                    "background-image": "url('http://localhost:8000/grapesjs/img/romantic-3.jpg')",
                     "background-repeat": "repeat",
                     "background-position": "center center",
                     "background-attachment": "scroll",
@@ -11804,7 +10716,7 @@ var template = {
                     "#ioxxd"
                 ],
                 "style": {
-                    "background-image": "url(\"https://invitaciondigital.store/grapesjs/img/romantic-3.jpg\") ",
+                    "background-image": "url(\"http://localhost:8000/grapesjs/img/romantic-3.jpg\") ",
                     "background-size": "auto",
                     "background-position": "center center",
                     "background-repeat": "no-repeat",
@@ -11905,7 +10817,7 @@ var template = {
                     "#ioxxd"
                 ],
                 "style": {
-                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/romantic-3.jpg')",
+                    "background-image": "url('http://localhost:8000/grapesjs/img/romantic-3.jpg')",
                     "background-repeat": "no-repeat",
                     "background-position": "center center",
                     "background-size": "cover"
@@ -13063,7 +11975,7 @@ var template = {
                 "style": {
                     "width": "100%",
                     "height": "200px",
-                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/romantic-3.jpg')",
+                    "background-image": "url('http://localhost:8000/grapesjs/img/romantic-3.jpg')",
                     "background-position-x": "center",
                     "background-position-y": "center",
                     "background-size": "cover",
@@ -13564,7 +12476,7 @@ var template = {
                                                         "foto1"
                                                     ],
                                                     "attributes": {
-                                                        "src": "https://invitaciondigital.store/grapesjs/img/flor1-izquierda.png",
+                                                        "src": "http://localhost:8000/grapesjs/img/flor1-izquierda.png",
                                                         "width": "160",
                                                         "height": "400"
                                                     }
@@ -13579,7 +12491,7 @@ var template = {
                                                         "foto2"
                                                     ],
                                                     "attributes": {
-                                                        "src": "https://invitaciondigital.store/grapesjs/img/flor1-derecha.png",
+                                                        "src": "http://localhost:8000/grapesjs/img/flor1-derecha.png",
                                                         "width": "160",
                                                         "height": "400"
                                                     }
@@ -13626,7 +12538,7 @@ var template = {
                                             ]
                                         }
                                     ],
-                                    "src": "https://invitaciondigital.store/grapesjs/img/romantic-3.jpg"
+                                    "src": "http://localhost:8000/grapesjs/img/romantic-3.jpg"
                                 },
                                 {
                                     "type": "historiaromantic",
@@ -17433,7 +16345,7 @@ var template = {
         "assets": [
             {
                 "type": "image",
-                "src": "https://invitaciondigital.store/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg",
+                "src": "http://localhost:8000/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -17441,7 +16353,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "https://invitaciondigital.store/grapesjs/img/flor1-izquierda.png",
+                "src": "http://localhost:8000/grapesjs/img/flor1-izquierda.png",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -17449,7 +16361,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "https://invitaciondigital.store/grapesjs/img/flor1-derecha.png",
+                "src": "http://localhost:8000/grapesjs/img/flor1-derecha.png",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -17457,7 +16369,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "https://invitaciondigital.store/grapesjs/img/romantic-3.jpg",
+                "src": "http://localhost:8000/grapesjs/img/romantic-3.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -17465,7 +16377,7 @@ var template = {
             },
             {
                 "type": "image",
-                "src": "https://invitaciondigital.store/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg",
+                "src": "http://localhost:8000/grapesjs/img/jonathan-borba-PjFIGt4t9Cw-unsplash-scaled.jpg",
                 "unitDim": "px",
                 "height": 0,
                 "width": 0,
@@ -17699,7 +16611,7 @@ var template = {
                     "#ioxxd"
                 ],
                 "style": {
-                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg')",
+                    "background-image": "url('http://localhost:8000/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg')",
                     "background-size": "cover",
                     "background-position": "center center",
                     "background-repeat": "no-repeat",
@@ -17801,7 +16713,7 @@ var template = {
                     "#ioxxd"
                 ],
                 "style": {
-                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/romantic-3.jpg')",
+                    "background-image": "url('http://localhost:8000/grapesjs/img/romantic-3.jpg')",
                     "background-repeat": "no-repeat",
                     "background-position": "center center",
                     "background-size": "cover"
@@ -18022,7 +16934,7 @@ var template = {
                     "background-clip": "initial",
                     "box-shadow": "rgba(7, 7, 7, 0.67) 0px 0px 0px 2000px inset",
                     "padding": "28px 0px 23px 0px",
-                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg')",
+                    "background-image": "url('http://localhost:8000/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg')",
                     "background-position": "center center"
                 },
                 "group": "cmp:contador"
@@ -18928,7 +17840,7 @@ var template = {
                     "box-shadow": "rgba(7, 7, 7, 0.3) 0px 0px 0px 2000px inset",
                     "background-repeat": "repeat",
                     "background-position": "center center",
-                    "background-image": "url('https://invitaciondigital.store/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg')"
+                    "background-image": "url('http://localhost:8000/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg')"
                 },
                 "group": "cmp:mensaje"
             },
@@ -19627,7 +18539,7 @@ var template = {
                                             ]
                                         }
                                     ],
-                                    "src": "https://invitaciondigital.store/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg"
+                                    "src": "http://localhost:8000/grapesjs/img/jonathan-borba-_YBeqTdXj3w-unsplash-scaled.jpg"
                                 },
                                 {
                                     "type": "division",
