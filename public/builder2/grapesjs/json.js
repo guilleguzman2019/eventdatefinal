@@ -2242,7 +2242,7 @@ var componentes = {
             }
             
             .owl-item{
-              width: 304 px;
+              width: 304 px !important;
             }
             
             .owl-nav > div {
