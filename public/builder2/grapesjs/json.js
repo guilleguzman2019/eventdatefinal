@@ -2075,6 +2075,14 @@ var componentes = {
             flex-direction: row;   
             justify-content: center;  // to center you carousel
             }
+            
+            .owl-carousel .owl-item {
+             width: 311 px !important;
+            }
+            
+            .galeria .owl-item {
+             width: 311 px !important;
+            }
         
         
         /* end fix */
@@ -2243,6 +2251,10 @@ var componentes = {
             
             .eventos .owl-item{
               width: 304 px !important;
+            }
+            
+            .owl-carousel .owl-item {
+             width: 304 px !important;
             }
             
             .owl-nav > div {
