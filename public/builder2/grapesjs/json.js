@@ -2241,6 +2241,10 @@ var componentes = {
               justify-content: center;  
             }
             
+            .owl-item{
+              width: 304 px;
+            }
+            
             .owl-nav > div {
               margin-top: -26px;
               position: absolute;
