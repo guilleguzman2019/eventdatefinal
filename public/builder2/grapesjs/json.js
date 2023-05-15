@@ -2241,7 +2241,7 @@ var componentes = {
               justify-content: center;  
             }
             
-            .owl-item{
+            .eventos .owl-item{
               width: 304 px !important;
             }
             
