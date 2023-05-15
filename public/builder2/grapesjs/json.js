@@ -2228,6 +2228,13 @@ var componentes = {
               margin-bottom: 13px;
             
             }
+            
+            .owl-carousel{
+              display: flex !important;  
+              flex-direction: row;   
+              justify-content: center;  
+            }
+            
             .owl-nav > div {
               margin-top: -26px;
               position: absolute;
@@ -2466,11 +2473,13 @@ var componentes = {
           }
           }
           
-          .padrinos-owl .item-padrinos {
-            position: relative;
-            z-index: 100; 
-            -webkit-backface-visibility: hidden; 
-          }
+          .owl-carousel{
+              display: flex !important;  // to override display:bloc i added !important
+              flex-direction: row;   
+              justify-content: center;  // to center you carousel
+            }
+          
+          
           
           /* end fix */
           .owl-nav > div {
