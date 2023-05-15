@@ -1286,7 +1286,7 @@ const editor = grapesjs.init({
               0: {
                 items: 1
               },
-              600: {
+              768: {
                 items: 1
               },
               1000: {
@@ -1415,7 +1415,7 @@ const editor = grapesjs.init({
                 0: {
                   items: 1
                 },
-                600: {
+                768: {
                   items: 1
                 },
                 1000: {
@@ -1600,11 +1600,11 @@ const editor = grapesjs.init({
               0: {
                 items: 1
               },
-              600: {
+              768: {
                 items: 1
               },
               1000: {
-                items: 1
+                items: 3
               }
             }
           })
