@@ -1272,7 +1272,7 @@ const editor = grapesjs.init({
   
           const cantidadEvent = "{[ cantidadEvent ]}";
   
-          $('.padrinos').owlCarousel({
+          $('.padrinosWestern').owlCarousel({
             loop: false,
             margin: 1,
             nav: true,
