@@ -1592,7 +1592,7 @@ const editor = grapesjs.init({
   
           const cantidadEvent = "{[ cantidadEvent ]}";
   
-          $('.eventos_owl').owlCarousel({
+          $('.eventos').owlCarousel({
             loop: false,
             margin: 10,
             nav: true,
@@ -1619,13 +1619,7 @@ const editor = grapesjs.init({
       },
     },
   
-    isComponent: (el) => {
-      if (el.className && el.className.includes("swiper-container")) {
-        return {
-          type: "eventos",
-        };
-      }
-    },
+    //aca va el is component
   
     view: defaultView.extend({
       init({ model }) {
