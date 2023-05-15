@@ -834,8 +834,7 @@ var template = {
                     "textocanciones"
                 ],
                 "style": {
-                    "font-family": "Montserrat",
-                    "font-weight": "700"
+                    "font-family": "Montserrat"
                 }
             },
             {
@@ -844,8 +843,7 @@ var template = {
                     "text-light"
                 ],
                 "style": {
-                    "font-family": "Montserrat",
-                    "font-weight": "700"
+                    "font-family": "Montserrat"
                 }
             },
             {
@@ -853,8 +851,7 @@ var template = {
                     "labelform"
                 ],
                 "style": {
-                    "font-family": "Montserrat",
-                    "font-weight": "700"
+                    "font-family": "Montserrat"
                 }
             },
             {
@@ -870,8 +867,7 @@ var template = {
                     "card-text"
                 ],
                 "style": {
-                    "font-family": "Montserrat",
-                    "font-weight": "700"
+                    "font-family": "Montserrat"
                 }
             },
             {
@@ -879,8 +875,7 @@ var template = {
                     "card-lugar"
                 ],
                 "style": {
-                    "font-family": "Montserrat",
-                    "font-weight": "700"
+                    "font-family": "Montserrat"
                 }
             },
             {
@@ -888,8 +883,7 @@ var template = {
                     "#ib34i"
                 ],
                 "style": {
-                    "font-family": "Montserrat",
-                    "font-weight": "700"
+                    "font-family": "Montserrat"
                 }
             },
             {
@@ -897,8 +891,7 @@ var template = {
                     "#irclw"
                 ],
                 "style": {
-                    "font-family": "Montserrat",
-                    "font-weight": "700"
+                    "font-family": "Montserrat"
                 }
             },
             {
@@ -906,8 +899,7 @@ var template = {
                     "#ir8sk"
                 ],
                 "style": {
-                    "font-family": "Montserrat",
-                    "font-weight": "700"
+                    "font-family": "Montserrat"
                 }
             },
             {
@@ -1182,7 +1174,7 @@ var template = {
                     "color": "rgb(0, 0, 0)",
                     "font-family": "Montserrat",
                     "font-size": "16px",
-                    "font-weight": "700"
+                    "font-weight": "500"
                 },
                 "group": "cmp:padrinosWestern"
             },
@@ -1528,42 +1520,6 @@ var template = {
                 },
                 "mediaText": "(max-width: 768px)",
                 "atRuleType": "media"
-            },
-            {
-                "selectors": [
-                    "labelform",
-                    "p-1"
-                ],
-                "style": {
-                    "font-weight": "700"
-                }
-            },
-            {
-                "selectors": [
-                    "switcher__label",
-                    "yang"
-                ],
-                "style": {
-                    "font-weight": "700"
-                }
-            },
-            {
-                "selectors": [
-                    "switcher__label",
-                    "yin"
-                ],
-                "style": {
-                    "font-weight": "700"
-                }
-            },
-            {
-                "selectors": [
-                    "form-control",
-                    "inputEmail4"
-                ],
-                "style": {
-                    "font-weight": "700"
-                }
             }
         ],
         "pages": [
@@ -2077,7 +2033,7 @@ var template = {
                                                                                                             "components": [
                                                                                                                 {
                                                                                                                     "type": "textnode",
-                                                                                                                    "content": "REGISTRO CIVIL"
+                                                                                                                    "content": "REGISTRO CIVIL CENTRAL"
                                                                                                                 }
                                                                                                             ]
                                                                                                         },
