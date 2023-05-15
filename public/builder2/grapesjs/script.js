@@ -1407,7 +1407,7 @@ const editor = grapesjs.init({
         ],
         script: function () {
          
-            const owl = $('.galeria').owlCarousel({
+            $('.galeria').owlCarousel({
               loop: false,
               margin: 10,
               nav: true,
@@ -1436,7 +1436,7 @@ const editor = grapesjs.init({
     isComponent: (el) => {
       if (el.className && el.className.includes("swiper-container")) {
         return {
-          type: "Galeria2",
+          type: "Galeria",
         };
       }
     },
@@ -1622,7 +1622,7 @@ const editor = grapesjs.init({
     isComponent: (el) => {
       if (el.className && el.className.includes("swiper-container")) {
         return {
-          type: "eventos2",
+          type: "eventos",
         };
       }
     },
