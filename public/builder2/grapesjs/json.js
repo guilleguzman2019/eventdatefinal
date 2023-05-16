@@ -2441,7 +2441,7 @@ var componentes = {
           
             .padrinos{
           
-              padding: 8% 0% 12% 0%;
+              padding: 8% 5% 12% 5%;
             
           }
           }
