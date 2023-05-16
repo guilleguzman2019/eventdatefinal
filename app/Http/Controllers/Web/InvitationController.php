@@ -13,6 +13,11 @@ class InvitationController extends Controller
     {
         
         $invitacion = Card::where('slug', $slug)->first();
+        
+        if ($invitacion -> status == '0')
+            {
+                return abort(404);
+            }
 
         return view('web.Invitacion', compact('invitacion'));
     }
