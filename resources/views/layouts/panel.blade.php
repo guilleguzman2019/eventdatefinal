@@ -105,7 +105,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.25.2/plugins/cleanpaste/trumbowyg.cleanpaste.min.js" integrity="sha512-UInqT8f+K1tkck6llPo0HDxlT/Zxv8t4OGeCuVfsIlXLrnP1ZKDGb+tBsBPMqDW15OcmV8NDfQe9+EaAG4aXeg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 		<script src="https://npmcdn.com/flatpickr/dist/l10n/es.js"></script>
-		<script src="{{ asset('build/assets/dashboard/dash.js') }}"></script>
+		<script src="{{ asset('builder2/dash.js') }}"></script>
 		
 
 		<script type="text/javascript">
