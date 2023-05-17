@@ -70,16 +70,7 @@ const editor = grapesjs.init({
     pluginsOpts: {
         'grapesjs-blocks-bootstrap5':
                     {
-                        blocks: {
-                            // ...
-                        },
-                        blockCategories: {
-                            // ...
-                        },
-                        labels: {
-                            // ...
-                        },
-                        // ...
+                    
                     }
     
     },
