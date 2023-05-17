@@ -88,7 +88,7 @@
                                     
 
                                         <div class="m-3 border text-center" style="display: inline-block; border-radius: 5px;">
-                                            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal{{$tmp -> name}}">
+                                            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal{{trim($tmp -> name)}}">
                                                 <img class="rounded" src="{{asset( $tmp -> image)}}" alt="" height="200px" width="200ox">
                                             </a>
                                             <br>
@@ -96,7 +96,7 @@
                                         </div>
                                         <!--modal1-->
 
-                                        <div class="modal fade text-dark" id="exampleModal{{$tmp -> name}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 999999;">
+                                        <div class="modal fade text-dark" id="exampleModal{{trim($tmp -> name)}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 999999;">
                                             <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
