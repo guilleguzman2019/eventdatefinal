@@ -1963,16 +1963,16 @@ const editor = grapesjs.init({
     labelCountdownCategory: 'Extra',
   
     // Days label text used in component
-    labelDays: 'days',
+    labelDays: 'Dias',
   
     // Hours label text used in component
-    labelHours: 'hours',
+    labelHours: 'Hs',
   
     // Minutes label text used in component
-    labelMinutes: 'minutes',
+    labelMinutes: 'Min',
   
     // Seconds label text used in component
-    labelSeconds: 'seconds',
+    labelSeconds: 'Seg',
   };
   
   const domc = editor.DomComponents;
