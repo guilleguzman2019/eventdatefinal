@@ -12,18 +12,18 @@
                                 </div>
                                 <div class="d-inline p-2  text-white">
                                     <a href="" class="a2">
-                                        <img src="https://eleve11.ar/wp-content/uploads/2022/07/ICONOS-04.svg" alt="" height="70px" width="70px">
+                                        <img src="https://eleve11.ar/wp-content/uploads/2022/07/ICONO-DESPEDIDA-SOLTERO.svg" alt="" height="70px" width="70px">
                                     </a>
                                 </div>
                                 <div class="d-inline p-2  text-white">
                                     <a href="" class="a3">
-                                        <img src="https://eleve11.ar/wp-content/uploads/2022/07/ICONO-DESPEDIDA-SOLTERO.svg" alt="" height="70px" width="70px">
+                                        <img src="https://eleve11.ar/wp-content/uploads/2022/07/ICONOS-04.svg" alt="" height="70px" width="70px">
                                     </a>
                                     
                                 </div>
                                 <div class="d-inline p-2  text-white">
                                     <a href="" class="a4">
-                                        <img src="https://eleve11.ar/wp-content/uploads/2022/07/ICONOS-05.svg" alt="" height="70px" width="70px">
+                                        <img src="https://media.istockphoto.com/id/1209468860/es/vector/caligraf%C3%ADa-para-la-fiesta-de-cumplea%C3%B1os-de-la-ni%C3%B1a-latinoamericana-texto-negro-aislado-sobre.jpg?s=612x612&w=0&k=20&c=rLsCqiF5l9SXfTPw7bEjiPcpNCPJ0kEShI2UL6CfHzk=" alt="" height="70px" width="70px">
                                     </a>
                                 </div>
                             </div>
