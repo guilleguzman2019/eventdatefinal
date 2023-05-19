@@ -1590,7 +1590,7 @@ const editor = grapesjs.init({
   
           const cantidadEvent = "{[ cantidadEvent ]}";
   
-          $('.eventos').owlCarousel({
+          $('.eventos_owl').owlCarousel({
             loop: false,
             margin: 10,
             nav: true,
