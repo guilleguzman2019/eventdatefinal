@@ -83,7 +83,6 @@ const editor = grapesjs.init({
                 'https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet"',
                 'https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet"',
                 'https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet"',
-                'https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet"',
                 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css',
                 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css',
                 'prueba.css'],
