@@ -76,9 +76,9 @@ const editor = grapesjs.init({
     canvas: {
       styles: ['https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css',
                 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css',
-                'https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet"',
+                'https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap" rel="stylesheet"',
                 'https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet"',
-                'https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"',
+                'https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"',
                 'https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"',
                 'https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet"',
                 'https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet"',
