@@ -2395,7 +2395,7 @@ var componentes = {
                         <div class="row text-xs-center p-t-1 p-b-4" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
                           <div class="col-md-12 text-center" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
                             <br>
-                            <h3 class="titulopadrino" data-gjs-highlightable="false">Padrinos</h3>
+                            <h3 class="titulopadrino" data-gjs-highlightable="false">Padrinos </h3>
                             <br>
                             <div class="carousel-wrap" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
                             <div class="owl-carousel padrinos_owl owl-theme" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
