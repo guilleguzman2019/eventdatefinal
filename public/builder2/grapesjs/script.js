@@ -1276,7 +1276,7 @@ const editor = grapesjs.init({
   
           const cantidadEvent = "{[ cantidadEvent ]}";
   
-          $('.padrinos-owl').owlCarousel({
+          $('.padrinos').owlCarousel({
             loop: false,
             margin: 1,
             nav: true,
@@ -1323,7 +1323,7 @@ const editor = grapesjs.init({
                         <h3 class="titulopadrino" data-gjs-highlightable="false">Padrinos</h3>
                         <br>
                         <div class="carousel-wrap" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
-                        <div class="owl-carousel padrinos-owl owl-theme" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">`;
+                        <div class="owl-carousel padrinos owl-theme" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">`;
   
         for (i=1; i<=cantidad; i++) {
   
