@@ -2390,7 +2390,7 @@ var componentes = {
               <div class="gjs-block-label">
               padrinos
               </div> `,
-    "components": `<section class="padrinos" data-gjs-hoverable="false" data-gjs-layerable="false"  data-gjs-highlightable="false" data-gjs-droppable="false">
+    "components": `<section class="padrinos2" data-gjs-hoverable="false" data-gjs-layerable="false"  data-gjs-highlightable="false" data-gjs-droppable="false">
                       <div class="container" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
                         <div class="row text-xs-center p-t-1 p-b-4" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
                           <div class="col-md-12 text-center" data-gjs-hoverable="false" data-gjs-layerable="false" data-gjs-editable="false" data-gjs-selectable="false" data-gjs-highlightable="false" data-gjs-droppable="false">
@@ -2430,7 +2430,7 @@ var componentes = {
                         </div>
                       </div>
                     </section>`,
-    "style": `.padrinos{
+    "style": `.padrinos2{
 
               background-color: #d7b7a2;
               padding: 4% 10% 4% 10%;
@@ -2439,7 +2439,7 @@ var componentes = {
 
           @media only screen and (max-width: 768px) {
           
-            .padrinos{
+            .padrinos2{
           
               padding: 8% 5% 12% 5%;
             
@@ -2495,7 +2495,7 @@ var componentes = {
           }
           }
           
-          .padrinos_owl{
+          .padrinos{
               display: flex !important;  // to override display:bloc i added !important
               flex-direction: row;   
               justify-content: center;  // to center you carousel
