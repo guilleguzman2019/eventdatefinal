@@ -66,11 +66,12 @@ const editor = grapesjs.init({
   
     container: '#gjs',
     fromElement: true,
-    plugins: ["gjs-blocks-basic"],
+    plugins: ['gjs-blocks-basic', 'grapesjs-style-bg'],
     pluginsOpts: {
        "gjs-blocks-basic": {
         /* ...options */
-      }
+      },
+      'grapesjs-style-bg': { /* options */ }
     
     },
     canvas: {
