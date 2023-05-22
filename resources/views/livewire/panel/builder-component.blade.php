@@ -11,6 +11,7 @@
 		<script src="https://unpkg.com/grapesjs"></script>
 		<script src="https://unpkg.com/grapesjs-component-countdown"></script>
 		<script src="https://unpkg.com/grapesjs-blocks-basic@1.0.1"></script>
+        <script src="https://unpkg.com/grapesjs-style-bg"></script>
 
     <style>
             body,
